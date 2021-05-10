@@ -1,0 +1,408 @@
+@import "../css/normalize.css";
+@import "../fonts/";
+@import "../css/settings.css";
+
+/*************************HEADER*************************/
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 72px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 1px 0px #E5E9F2;
+}
+
+nav {
+    width: 407px;
+    margin-top: 10px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 272px;
+    padding-left: 135px;
+}
+
+nav ul li a {
+    font-family: "Manrope-bold", serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    color: #18191f;
+}
+
+.header-logo {
+    position: absolute;
+    top: 20px;
+    left: 647px;
+}
+
+.header-icons {
+    width: 305px;
+    margin-top: 20px;
+}
+
+.header-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 170px;
+    padding-right: 135px;
+}
+
+.icon {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    background-color: rgb(128, 202, 255, 0.1);
+    border-radius: 50%;
+}
+
+.header-icons .header-icon .icon a svg {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 25%;
+}
+
+.instagram {
+    width: 17.07px;
+    height: 17.07px;
+}
+
+.facebook {
+    width: 8px;
+    height: 15px;
+}
+
+.twitter {
+    width: 15.49px;
+    height: 12.8px;
+}
+
+.youtube {
+    width: 17.07px;
+    height: 12.27px;
+}
+
+
+/*************************WR-PREVIEW*************************/
+
+.wr-preview {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 668px;
+    width: 1440px;
+    margin-bottom: -23px;
+}
+
+.wr-preview .wr-preview-welcome {
+    width: 50%;
+}
+
+.wr-preview .wr-preview-welcome .wr-welcome {
+    width: 540px;
+    margin-top: 190px;
+    margin-left: 135px;
+    margin-bottom: 185px;
+}
+
+.wr-preview .wr-preview-welcome-photo {
+    position: relative;
+    width: 50%;
+}
+
+.wr-preview .wr-preview-welcome-photo .welcome-photo {
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    padding-top: 90px;
+    padding-left: 25px;
+}
+
+.wr-preview .wr-preview-welcome-photo .background {
+    position: absolute;
+    right: 0px;
+    top: -72px;
+    z-index: -1;
+}
+
+.wr-preview .wr-preview-welcome .wr-welcome p:first-child {
+    font-family: "Manrope-regular", sans-serif;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 34px;
+    letter-spacing: -0.376923px;
+    color: #0096FF;
+    margin-bottom: -9px;
+}
+
+.wr-preview .wr-preview-welcome .wr-welcome h1 {
+    font-family: "Manrope-extrabold", sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 40px;
+    color: #18191F;
+    margin-bottom: 4px;
+}
+
+.wr-preview .wr-preview-welcome .wr-welcome p:last-of-type {
+    font-family: "Manrope-regular", sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: #18191F;
+    margin-bottom: 15px;
+}
+
+.wr-preview .wr-preview-welcome .wr-welcome button {
+    width: 248px;
+    height: 64px;
+    background: #0096FF;
+    border-radius: 10px;
+    border: solid 1px #0096FF;
+    font-family: "Manrope-bold", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.wr-preview .wr-preview-welcome .wr-welcome button a {
+    color: #FFFFFF;
+}
+
+
+/*************************WR-CALL*************************/
+
+.wr-call {
+    height: 148px;
+    width: 100%;
+    background-color: rgba(240, 246, 251, 1);
+    margin-bottom: 72px;
+}
+
+.wr-call h2 {
+    font-family: "Helvetica-regular", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 33px;
+    text-align: center;
+    color: #0096FF;
+    padding-top: 55px;
+}
+
+.wr-call h2 span {
+    font-family: "Helvetica-bold", sans-serif;
+    font-weight: 700;
+}
+
+
+/*************************TESTING*************************/
+
+.testing {
+    width: 100%;
+    height: 356px;
+    margin-bottom: -94px;
+}
+
+.testing .testing-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+.testing .testing-block .test {
+    width: 253.19px;
+    height: 180.98px;
+    background: #0096FF;
+    border-radius: 20px;
+    position: relative;
+}
+
+.testing .testing-block .test .test-icon {
+    height: 87.01px;
+    width: 86.98px;
+    position: absolute;
+    right: 23px;
+    top: 20px;
+}
+
+.testing .testing-block .test .test-icon-2 {
+    position: absolute;
+    right: 52px;
+    top: 50px;
+}
+
+.testing .testing-block .test .test-info {
+    position: absolute;
+    bottom: 2px;
+    right: 16px;
+    left: 16.19px;
+}
+
+.testing .testing-block .test .test-info h4 {
+    font-family: "Helvetica-bold", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-bottom: -3px;
+}
+
+.testing .testing-block .test .test-info p {
+    font-family: "Helvetica-bold", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 133.5%;
+    color: #FFFFFF;
+}
+
+
+/*************************ADVISE*************************/
+
+.advises {
+    margin-bottom: 11px;
+}
+
+.advises .advises-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.advises .advises-block .advises-block-photo img {
+    padding-left: 135px;
+}
+
+.advises .advises-block .advises-block-advises {
+    display: flex;
+    flex-direction: column;
+    margin-right: 175px;
+    margin-left: -70px;
+    margin-top: 72px;
+}
+
+.advises .advises-block .advises-block-advises h2 {
+    font-family: "Manrope-bold", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -1.3px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 8px;
+}
+
+.advises .advises-block .advises-block-advises .advise h3 {
+    font-family: "Manrope-regular", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: #0096FF;
+    margin-bottom: -32px;
+}
+
+.advises .advises-block .advises-block-advises .advise {
+    margin-bottom: -5px;
+}
+
+.advises .advises-block .advises-block-advises .advise p {
+    font-family: "Manrope-regular", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    margin-top: 34px;
+}
+
+
+/*************************SERVICES*************************/
+
+.wr-services {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.wr-services .wr-services-heading {
+    height: 128px;
+    width: 100%;
+    margin-bottom: 4px;
+}
+
+.wr-services .wr-services-heading h2 {
+    font-family: "Manrope-extrabold", sans-serif;
+    font-style: normal;
+    font-size: 35px;
+    line-height: 64px;
+    text-align: center;
+    color: #000000;
+}
+
+.wr-services .wr-services-services {
+    display: grid;
+    grid-template-columns: 24% 14% 24% 14% 24%;
+    grid-template-rows: 14% 29% 14% 29% 14%;
+    max-width: 1171px;
+    height: 611px;
+    padding-left: 135px;
+    margin-bottom: 20px;
+}
+
+.wr-services .wr-services-services h3 {
+    font-family: "Manrope-semibold", sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: #18191F;
+    margin-bottom: -4px;
+}
+
+.wr-services .wr-services-services .service-info {
+    font-family: "Manrope-regular", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #18191F;
+    margin-bottom: 40px;
+}
+
+.wr-services .wr-services-services a {
+    font-family: "Manrope-bold", sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #0096FF;
+}
+
+.wr-services .wr-services-explore {
+    text-align: center;
+}
+
+.wr-services .wr-services-explore a {
+    font-family: "Manrope-bold", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+
+/*************************SPECIALISTS*************************/
