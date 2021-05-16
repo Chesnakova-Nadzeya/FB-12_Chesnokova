@@ -4,57 +4,52 @@
 
 /*************************HEADER*************************/
 
-.header {
+.wr-preview {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 72px;
-    background-color: rgba(255, 255, 255, 1);
-    box-shadow: 0px 1px 0px #E5E9F2;
+    flex-direction: column;
 }
 
-nav {
-    width: 407px;
-    margin-top: 10px;
+header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    min-height: 72px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 1px 0px #E5E9F2;
+    position: relative;
 }
 
 nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    max-width: 272px;
-    padding-left: 135px;
+    padding-top: 10px;
 }
 
 nav ul li a {
-    font-family: "Manrope-bold", serif;
+    font-family: "Manrope-bold", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
     line-height: 20px;
     color: #18191f;
+    margin-right: 33px;
+    padding-top: 10px;
 }
 
-.header-logo {
+.logo {
     position: absolute;
-    top: 20px;
-    left: 647px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 20px;
 }
 
 .header-icons {
-    width: 305px;
-    margin-top: 20px;
-}
-
-.header-icon {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    max-width: 170px;
-    padding-right: 135px;
+    min-width: 170px;
 }
 
-.icon {
+.header-icons .icon {
     position: relative;
     width: 32px;
     height: 32px;
@@ -62,77 +57,59 @@ nav ul li a {
     border-radius: 50%;
 }
 
-.header-icons .header-icon .icon a svg {
+.icon a svg {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     top: 25%;
 }
 
-.instagram {
-    width: 17.07px;
-    height: 17.07px;
+.header-icons .instagram {
+    width: 18px;
+    height: 18px;
 }
 
-.facebook {
-    width: 8px;
+.header-icons .facebook {
+    width: 9px;
+    height: 16px;
+}
+
+.header-icons .twitter {
+    width: 17px;
+    height: 14px;
+}
+
+.header-icons .youtube {
+    width: 19px;
     height: 15px;
 }
 
-.twitter {
-    width: 15.49px;
-    height: 12.8px;
-}
 
-.youtube {
-    width: 17.07px;
-    height: 12.27px;
-}
+/*************************WR-WELCOME*************************/
 
-
-/*************************WR-PREVIEW*************************/
-
-.wr-preview {
+.wr-welcome .wrapper {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 668px;
-    width: 1440px;
-    margin-bottom: -23px;
+    margin-bottom: 6px;
 }
 
-.wr-preview .wr-preview-welcome {
-    width: 50%;
+.wr-welcome .wrapper .wrapper-welcome {
+    padding-top: 165px;
+    min-width: 50%;
 }
 
-.wr-preview .wr-preview-welcome .wr-welcome {
-    width: 540px;
-    margin-top: 190px;
-    margin-left: 135px;
-    margin-bottom: 185px;
+.wr-welcome .wrapper .wrapper-welcome-photo {
+    background-image: url(../media/index/backcircle.png);
+    background-repeat: no-repeat;
+    background-position-x: 110px;
+    background-position-y: -73px;
 }
 
-.wr-preview .wr-preview-welcome-photo {
-    position: relative;
-    width: 50%;
-}
-
-.wr-preview .wr-preview-welcome-photo .welcome-photo {
-    position: absolute;
-    left: 0;
-    z-index: 1;
-    padding-top: 90px;
+.wr-welcome .wrapper .wrapper-welcome-photo .welcome-photo {
     padding-left: 25px;
+    padding-top: 90px;
 }
 
-.wr-preview .wr-preview-welcome-photo .background {
-    position: absolute;
-    right: 0px;
-    top: -72px;
-    z-index: -1;
-}
-
-.wr-preview .wr-preview-welcome .wr-welcome p:first-child {
+.wr-welcome .wrapper .wrapper-welcome p:first-child {
     font-family: "Manrope-regular", sans-serif;
     font-style: normal;
     font-size: 25px;
@@ -142,16 +119,16 @@ nav ul li a {
     margin-bottom: -9px;
 }
 
-.wr-preview .wr-preview-welcome .wr-welcome h1 {
+.wr-welcome .wrapper .wrapper-welcome h1 {
     font-family: "Manrope-extrabold", sans-serif;
     font-style: normal;
     font-size: 40px;
-    line-height: 40px;
+    line-height: 42px;
     color: #18191F;
-    margin-bottom: 4px;
+    margin-bottom: -3px;
 }
 
-.wr-preview .wr-preview-welcome .wr-welcome p:last-of-type {
+.wr-welcome .wrapper .wrapper-welcome p:last-of-type {
     font-family: "Manrope-regular", sans-serif;
     font-style: normal;
     font-size: 18px;
@@ -160,7 +137,7 @@ nav ul li a {
     margin-bottom: 15px;
 }
 
-.wr-preview .wr-preview-welcome .wr-welcome button {
+.wr-welcome .wrapper .wrapper-welcome button {
     width: 248px;
     height: 64px;
     background: #0096FF;
@@ -175,21 +152,20 @@ nav ul li a {
     color: #FFFFFF;
 }
 
-.wr-preview .wr-preview-welcome .wr-welcome button a {
+.wr-welcome .wrapper .wrapper-welcome button a {
     color: #FFFFFF;
 }
 
 
 /*************************WR-CALL*************************/
 
-.wr-call {
-    height: 148px;
-    width: 100%;
+.wr-call .wrapper {
+    min-height: 148px;
     background-color: rgba(240, 246, 251, 1);
     margin-bottom: 72px;
 }
 
-.wr-call h2 {
+.wr-call .wrapper h2 {
     font-family: "Helvetica-regular", sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -200,7 +176,7 @@ nav ul li a {
     padding-top: 55px;
 }
 
-.wr-call h2 span {
+.wr-call .wrapper h2 span {
     font-family: "Helvetica-bold", sans-serif;
     font-weight: 700;
 }
@@ -208,21 +184,19 @@ nav ul li a {
 
 /*************************TESTING*************************/
 
-.testing {
-    width: 100%;
-    height: 356px;
+.testing .wrapper {
+    min-height: 356px;
     margin-bottom: -94px;
 }
 
-.testing .testing-block {
+.testing .wrapper {
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     padding-left: 110px;
     padding-right: 110px;
 }
 
-.testing .testing-block .test {
+.testing .wrapper .test {
     width: 253.19px;
     height: 180.98px;
     background: #0096FF;
@@ -230,7 +204,7 @@ nav ul li a {
     position: relative;
 }
 
-.testing .testing-block .test .test-icon {
+.testing .wrapper .test .test-icon {
     height: 87.01px;
     width: 86.98px;
     position: absolute;
@@ -238,20 +212,20 @@ nav ul li a {
     top: 20px;
 }
 
-.testing .testing-block .test .test-icon-2 {
+.testing .wrapper .test .test-icon-2 {
     position: absolute;
     right: 52px;
     top: 50px;
 }
 
-.testing .testing-block .test .test-info {
+.testing .wrapper .test .test-info {
     position: absolute;
     bottom: 2px;
     right: 16px;
     left: 16.19px;
 }
 
-.testing .testing-block .test .test-info h4 {
+.testing .wrapper .test .test-info h4 {
     font-family: "Helvetica-bold", sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -261,7 +235,7 @@ nav ul li a {
     margin-bottom: -3px;
 }
 
-.testing .testing-block .test .test-info p {
+.testing .wrapper .test .test-info p {
     font-family: "Helvetica-bold", sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -273,29 +247,23 @@ nav ul li a {
 
 /*************************ADVISE*************************/
 
-.advises {
-    margin-bottom: 11px;
-}
-
-.advises .advises-block {
+.advises .wrapper {
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
+    background-image: url(../media/index/purplecircle.png);
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
-.advises .advises-block .advises-block-photo img {
-    padding-left: 135px;
-}
-
-.advises .advises-block .advises-block-advises {
+.advises .wrapper .advises-block-advises {
     display: flex;
     flex-direction: column;
-    margin-right: 175px;
+    padding-top: 73px;
     margin-left: -70px;
-    margin-top: 72px;
+    padding-right: 40px;
 }
 
-.advises .advises-block .advises-block-advises h2 {
+.advises .wrapper .advises-block-advises h2 {
     font-family: "Manrope-bold", sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -304,10 +272,10 @@ nav ul li a {
     letter-spacing: -1.3px;
     text-transform: uppercase;
     color: #000000;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
 }
 
-.advises .advises-block .advises-block-advises .advise h3 {
+.advises .wrapper .advises-block-advises .advise h3 {
     font-family: "Manrope-regular", sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -317,11 +285,11 @@ nav ul li a {
     margin-bottom: -32px;
 }
 
-.advises .advises-block .advises-block-advises .advise {
-    margin-bottom: -5px;
+.advises .wrapper .advises-block-advises .advise {
+    margin-bottom: -10px;
 }
 
-.advises .advises-block .advises-block-advises .advise p {
+.advises .wrapper .advises-block-advises .advise p {
     font-family: "Manrope-regular", sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -338,18 +306,18 @@ nav ul li a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-top: 12px;
 }
 
 .wr-services .wr-services-heading {
-    height: 128px;
-    width: 100%;
-    margin-bottom: 4px;
+    min-height: 128px;
+    margin-bottom: 58px;
 }
 
 .wr-services .wr-services-heading h2 {
     font-family: "Manrope-extrabold", sans-serif;
     font-style: normal;
-    font-size: 35px;
+    font-size: 36px;
     line-height: 64px;
     text-align: center;
     color: #000000;
@@ -358,11 +326,9 @@ nav ul li a {
 .wr-services .wr-services-services {
     display: grid;
     grid-template-columns: 24% 14% 24% 14% 24%;
-    grid-template-rows: 14% 29% 14% 29% 14%;
+    grid-template-rows: 48% 48%;
     max-width: 1171px;
-    height: 611px;
-    padding-left: 135px;
-    margin-bottom: 20px;
+    min-height: 546px;
 }
 
 .wr-services .wr-services-services h3 {
@@ -406,3 +372,375 @@ nav ul li a {
 
 
 /*************************SPECIALISTS*************************/
+
+.wr-specialists .wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 69px;
+}
+
+.wr-specialists .wrapper .wr-specialists-heading h2 {
+    font-family: "Manrope-extrabold", sans-serif;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 64px;
+    color: #18191F;
+}
+
+.wr-specialists .wrapper .wr-specialists-info {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+
+.wr-specialists .wrapper .wr-specialists-info .wr-specialists-specialist {
+    display: flex;
+    flex-direction: column;
+}
+
+.wr-specialists-info .wr-specialists-specialist .specialist-name p:first-child {
+    font-family: "Manrope-regular", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.376923px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 15px;
+}
+
+.wr-specialists-info .wr-specialists-specialist .specialist-name p:last-child {
+    font-family: "Manrope-bold", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.376923px;
+    text-transform: uppercase;
+    color: #0096FF;
+    margin-top: -18px;
+    margin-bottom: 5px;
+}
+
+.specialists-contacts {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 97px 0px 93px;
+}
+
+.specialists-contacts .contact-icon .facebook,
+.specialists-contacts .contact-icon .twitter,
+.specialists-contacts .contact-icon .instagram {
+    height: 16px;
+}
+
+
+/*************************OUR CLIENTS SPEAK*************************/
+
+.wr-clients-reviews {
+    padding-top: 73px;
+}
+
+.wr-clients-reviews .wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.wr-clients-reviews .wrapper .wr-clients-reviews-heading h2 {
+    font-family: "Manrope-extrabold", sans-serif;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 64px;
+    color: #18191F;
+    margin-bottom: -13px;
+}
+
+.wr-clients-reviews .wrapper .wr-clients-reviews-heading p {
+    font-family: "Manrope-regular", sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: #18191F;
+}
+
+.wr-clients-reviews .wrapper .wr-clients-reviews-content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 51px;
+}
+
+.wr-clients-reviews .wrapper .wr-clients-reviews-content .review {
+    max-width: 23%;
+    padding-left: 43px;
+    padding-right: 43px;
+}
+
+.wr-clients-reviews-content .review .review-content h3 {
+    font-family: "Manrope-semibold", sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: #18191F;
+    margin-bottom: -15px;
+}
+
+.wr-clients-reviews-content .review .review-content p {
+    font-family: "Manrope-regular", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #18191F;
+}
+
+.wr-clients-reviews-content .review .reviewer p:first-of-type {
+    font-family: "Manrope-bold", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    color: #18191F;
+}
+
+.wr-clients-reviews-content .review .reviewer p:last-of-type {
+    font-family: "Helvetica-regular", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #474A57;
+}
+
+.wr-clients-reviews-content .review .reviewer img {
+    padding-top: 38px;
+}
+
+.wr-clients-reviews-content .review .reviewer p:first-of-type {
+    margin-top: 5px;
+    margin-bottom: -15px;
+}
+
+
+/*************************OUR BLOG*************************/
+
+.wr-blog {
+    padding-top: 35px;
+    margin-bottom: 67px;
+}
+
+.wr-blog .wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.wr-blog .wrapper .wr-blog-heading h2 {
+    font-family: "Manrope-extrabold", sans-serif;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 64px;
+    color: #000000;
+    margin-bottom: -13px;
+}
+
+.wr-blog .wrapper .wr-blog-heading p {
+    font-family: "Manrope-regular", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: #18191F;
+}
+
+.wr-blog .wrapper .wr-blog-content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+}
+
+.wr-blog .wrapper .wr-blog-content .wr-blog-content-chat {
+    display: flex;
+    flex-direction: column;
+    max-width: 30.5%;
+}
+
+.wr-blog-content .wr-blog-content-chat .chat-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.wr-blog-content .wr-blog-content-chat .chat-info a.client-name {
+    font-family: "Roboto-regular", sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 22px;
+    color: #2296F9;
+    padding-right: 38px;
+}
+
+.wr-blog-content .wr-blog-content-chat .chat-info time,
+.wr-blog-content .wr-blog-content-chat .chat-info .chat span,
+.wr-blog-content .wr-blog-content-chat .chat-info .likes span {
+    font-family: "Roboto-regular", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+    color: #999999;
+    padding-right: 22px;
+}
+
+.wr-blog-content .wr-blog-content-chat .chat-info .likes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wr-blog .wrapper .wr-blog-content .chat-content h3 {
+    font-family: "Manrope-bold", sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+    text-align: justify;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+.wr-blog .wrapper .wr-blog-content .chat-content p {
+    font-family: "Manrope-regular", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #666666;
+    text-align: justify;
+    padding-right: 18px;
+}
+
+
+/************************FOOTER************************/
+
+footer .wrapper {
+    display: flex;
+    justify-content: space-between;
+    min-height: 288px;
+    background-color: rgba(0, 150, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    text-align: left;
+    padding-top: 5px;
+}
+
+footer .wrapper .about {
+    max-width: 25.5%;
+    padding-top: 32px;
+}
+
+footer .wrapper .about img {
+    padding-bottom: 7px;
+}
+
+footer .wrapper .contacts {
+    max-width: 18%;
+    padding-top: 7px;
+    padding-left: 12px;
+}
+
+footer .wrapper .contacts p {
+    font-family: "Manrope-regular", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    padding-top: 15px;
+}
+
+footer .wrapper .contacts p span {
+    font-family: "Manrope-regular", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+footer .wrapper .connection {
+    max-width: 12.5%;
+    padding-top: 12px;
+}
+
+footer .wrapper .newsletter {
+    max-width: 16%;
+    padding-top: 12px;
+}
+
+footer .wrapper .newsletter p {
+    font-family: "Manrope-regular", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    padding-top: 6px;
+}
+
+footer .wrapper .connection .networks {
+    display: flex;
+    margin-bottom: 11px;
+}
+
+footer .wrapper .connection .networks .networks-icon {
+    width: 12.5px;
+    height: 11px;
+    margin-right: 12px;
+}
+
+footer .wrapper .connection .networks a.networks-name {
+    font-family: "Manrope-regular", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+footer .wrapper h3 {
+    font-family: "Manrope-regular", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+footer .wrapper .about p {
+    font-family: "Manrope-regular", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+footer input[type=email] {
+    padding: 7px;
+    font-family: "Rubik-light", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+    color: #808080;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    height: 27px;
+    width: 120px;
+}
+
+footer input[type=submit] {
+    position: absolute;
+    height: 27px;
+    width: 67px;
+    background: #0096FF;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    font-family: "Rubik-medium", sans-serif;
+    font-style: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+}

@@ -7,206 +7,539 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dental Website</title>
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="chess icon" href="/media/index/favicon.png" type="image/png">
 </head>
 
 <body>
-    <!-- ***************HEADER*************** -->
-    <header>
-        <div class="header">
-            <nav>
-                <ul>
-                    <li><a href="./about-us.html" title="About us">About</a></li>
-                    <li><a href="./our-doctors.html" title="Doctor">Doctor</a></li>
-                    <li><a href="./our-blog.html" title="Blog">Blog</a></li>
-                    <li><a href="./our-contact.html" title="Contact">Contact</a></li>
-                </ul>
-            </nav>
 
-            <div class="header-logo">
+    <div class="wr-preview">
+
+        <!-- ***************HEADER*************** -->
+        <header>
+            <div class="wrapper">
+                <nav>
+                    <ul>
+                        <li><a href="./about-us.html" title="About us">About</a></li>
+                        <li><a href="./our-doctors.html" title="Doctor">Doctor</a></li>
+                        <li><a href="./our-blog.html" title="Blog">Blog</a></li>
+                        <li><a href="./our-contact.html" title="Contact">Contact</a></li>
+                    </ul>
+                </nav>
+
                 <a href="#" class="logo"><img src="./media/index/logo.png" alt="logo"></a>
+
+
+                <ul class="header-icons">
+                    <li>
+                        <div class="icon">
+                            <a href="#">
+                                <svg class="instagram" viewBox="0 0 448 512"><path fill="rgba(0, 150, 255, 1)" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="icon">
+                        <div class="icon">
+                            <a href="#">
+                                <svg class="facebook" viewBox="0 0 320 512"><path fill="rgba(0, 150, 255, 1)" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="icon">
+                        <div class="icon">
+                            <a href="#">
+                                <svg class="twitter" viewBox="0 0 512 512"><path fill="rgba(0, 150, 255, 1)" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="icon">
+                        <div class="icon">
+                            <a href="#">
+                                <svg class="youtube" viewBox="0 0 576 512"><path fill="rgba(0, 150, 255, 1)" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+        </header>
+
+        <!-- ***************WR-WELCOME*************** -->
+        <section class="wr-welcome">
+
+            <div class="wrapper">
+                <div class="wrapper-welcome">
+                    <p>Welcome to Dental Clinic</p>
+                    <h1>Professional, Warm and Friendly Dental care for you</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nunc<br> in et, lectus sit lorem id integer.</p>
+                    <button><a class="appointment" href="#"> Make Appointment</a></button>
+                </div>
+
+                <div class="wrapper-welcome-photo">
+                    <img class="welcome-photo" src="./media/index/preview1x.png" alt="welcome-photo">
+                </div>
             </div>
 
-            <div class="header-icons">
-                <div class="header-icon">
-                    <div class="icon">
-                        <a href="#">
-                            <svg class="instagram" viewBox="0 0 448 512"><path fill="rgba(0, 150, 255, 1)" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>
-                        </a>
+        </section>
+
+        <!-- ***************WR-CALL*************** -->
+        <section class="wr-call">
+            <div class="wrapper">
+                <h2>Cet in touch with us today <span>(02) 9955 4239</span></h2>
+            </div>
+        </section>
+
+        <!-- ***************TESTING*************** -->
+
+        <section class="testing">
+            <div class="wrapper">
+                <div class="test">
+                    <div class="test-icon"><img src="./media/index/test1.png" alt="test1"></div>
+                    <div class="test-info">
+                        <h4>Teeth Testing</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
-                    <div class="icon">
-                        <a href="#">
-                            <svg class="facebook" viewBox="0 0 320 512"><path fill="rgba(0, 150, 255, 1)" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg>
-                        </a>
-                    </div>
-                    <div class="icon">
-                        <a href="#">
-                            <svg class="twitter" viewBox="0 0 512 512"><path fill="rgba(0, 150, 255, 1)" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>
-                        </a>
-                    </div>
-                    <div class="icon">
-                        <a href="#">
-                            <svg class="youtube" viewBox="0 0 576 512"><path fill="rgba(0, 150, 255, 1)" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg>
-                        </a>
+                </div>
+                <div class="test">
+                    <div class="test-icon"><img src="./media/index/test2.png" alt="test2"></div>
+                    <div class="test-info">
+                        <h4>Teeth Testing</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                 </div>
+                <div class="test">
+                    <div class="test-icon"><img src="./media/index/test3.png" alt="test3"></div>
+                    <div class="test-info">
+                        <h4>Teeth Testing</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+                <div class="test">
+                    <div class="test-icon"><img src="./media/index/test41.png" alt="test41"></div>
+                    <div class="test-icon-2"><img src="./media/index/test42.png" alt="test42"></div>
+                    <div class="test-info">
+                        <h4>Teeth Testing</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
             </div>
-        </div>
-    </header>
+        </section>
 
-    <!-- ***************WR-PREVIEW*************** -->
-    <section class="wr-preview">
+        <!--***************ADVISE*************** -->
 
-        <div class="wr-preview-welcome">
-            <div class="wr-welcome">
-                <p>Welcome to Dental Clinic</p>
-                <h1>Professional, Warm and Friendly Dental care for you</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nunc odio in et, lectus sit lorem id integer.</p>
-                <button><a class="appointment" href="#"> Make Appointment</a></button>
+        <section class="advises">
+            <div class="wrapper">
+                <div class="advises-block-photo">
+                    <img src="./media/index/girl1x.png" alt="girl">
+
+                </div>
+                <div class="advises-block-advises">
+                    <h2>Relax your dentist knows best</h2>
+                    <div class="advise">
+                        <h3>Dental hygiene never forget!</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    </div>
+                    <div class="advise">
+                        <h3>Don’t rush when you brush!</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    </div>
+                    <div class="advise">
+                        <h3>Visit your dentist once in 6 months</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    </div>
+                </div>
+
             </div>
-        </div>
+        </section>
 
-        <div class="wr-preview-welcome-photo">
-            <img class="welcome-photo" src="./media/index/preview1x.png" alt="welcome-photo">
-            <img class="background" src="./media/index/purple-circle1x.png" alt="circle">
-        </div>
+        <!-- ***************SERVICES*************** -->
+        <section class="wr-services">
+            <div class="wrapper">
+                <div class="wr-services-heading">
+                    <h2><strong>Our Umbrella of Services</strong><br>Pain free procedures in dentistry</h2>
+                </div>
 
-    </section>
+                <div class="wr-services-services">
 
-    <!-- ***************WR-CALL*************** -->
-    <section class="wr-call">
-        <h2>Cet in touch with us today <span>(02) 9955 4239</span></h2>
-    </section>
+                    <div>
+                        <h3>Teeth Whitening</h3>
+                        <p class="service-info">Lorem ipsum dolor amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.</p>
+                        <p><a href="#">Explore &#8594;</a></p>
+                    </div>
+                    <div></div>
+                    <div>
+                        <h3>Teeth Cleaning</h3>
+                        <p class="service-info">Lorem ipsum dolor amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.</p>
+                        <p><a href="#">Explore &#8594;</a></p>
+                    </div>
+                    <div></div>
+                    <div>
+                        <h3>Modern Anesthetic</h3>
+                        <p class="service-info">Lorem ipsum dolor amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.</p>
+                        <p><a href="#">Explore &#8594;</a></p>
+                    </div>
 
-    <!-- ***************TESTING*************** -->
+                    <div>
+                        <h3>Quality Brackets</h3>
+                        <p class="service-info">Lorem ipsum dolor amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.</p>
+                        <p><a href="#">Explore &#8594;</a></p>
+                    </div>
+                    <div></div>
+                    <div>
+                        <h3>Teeth Whitening</h3>
+                        <p class="service-info">Lorem ipsum dolor amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.</p>
+                        <p><a href="#">Explore &#8594;</a></p>
+                    </div>
+                    <div></div>
+                    <div>
+                        <h3>Teeth Cleaning</h3>
+                        <p class="service-info">Lorem ipsum dolor amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.</p>
+                        <p><a href="#">Explore &#8594;</a></p>
+                    </div>
 
-    <section class="testing">
-        <div class="testing-block">
-            <div class="test">
-                <div class="test-icon"><img src="./media/index/test1.png" alt="test1"></div>
-                <div class="test-info">
-                    <h4>Teeth Testing</h4>
+                </div>
+
+                <div class="wr-services-explore">
+                    <a href="#">Explore all &#8594;</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ***************SPECIALISTS*************** -->
+
+        <section class="wr-specialists">
+            <div class="wrapper">
+                <div class="wr-specialists-heading">
+                    <h2>Our Distinguished Dental Specialists</h2>
+                </div>
+
+                <div class="wr-specialists-info">
+                    <div class="wr-specialists-specialist">
+                        <div>
+                            <picture>
+                                <source srcset="./media/index/doctor11x.webp"> <img src="./media/index/doctor11x.jpg"></picture>
+                        </div>
+                        <div class="specialist-name">
+                            <p>Akash Kumar</p>
+                            <p>DEntist</p>
+                        </div>
+                        <div class="specialists-contacts">
+                            <div class="contact-icon">
+                                <a href="#">
+                                    <svg class="facebook" viewBox="0 0 320 512"><path fill="rgba(0, 150, 255, 1)" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg>
+                                </a>
+                            </div>
+                            <div class="contact-icon">
+                                <a href="#">
+                                    <svg class="twitter" viewBox="0 0 512 512"><path fill="rgba(0, 150, 255, 1)" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>
+                                </a>
+                            </div>
+                            <div class="contact-icon">
+                                <a href="#">
+                                    <svg class="instagram" viewBox="0 0 448 512"><path fill="rgba(0, 150, 255, 1)" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="wr-specialists-specialist">
+                        <div>
+                            <picture>
+                                <source srcset="./media/index/doctor21x.webp"> <img src="./media/index/doctor21x.jpg">
+                            </picture>
+                        </div>
+                        <div class="specialist-name">
+                            <p>Sonam Doe</p>
+                            <p>DEntist</p>
+
+                        </div>
+                        <div class="specialists-contacts">
+                            <div class="contact-icon">
+                                <a href="#">
+                                    <svg class="facebook" viewBox="0 0 320 512"><path fill="rgba(0, 150, 255, 1)" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg>
+                                </a>
+                            </div>
+                            <div class="contact-icon">
+                                <a href="#">
+                                    <svg class="twitter" viewBox="0 0 512 512"><path fill="rgba(0, 150, 255, 1)" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>
+                                </a>
+                            </div>
+                            <div class="contact-icon">
+                                <a href="#">
+                                    <svg class="instagram" viewBox="0 0 448 512"><path fill="rgba(0, 150, 255, 1)" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="wr-specialists-specialist">
+                        <div>
+                            <picture>
+                                <source srcset="./media/index/doctor31x.webp"> <img src="./media/index/doctor31x.jpg"></picture>
+                        </div>
+                        <div class="specialist-name">
+                            <p>Jemmy Doe</p>
+                            <p>DEntist</p>
+
+                        </div>
+                        <div class="specialists-contacts">
+                            <div class="contact-icon">
+                                <a href="#">
+                                    <svg class="facebook" viewBox="0 0 320 512"><path fill="rgba(0, 150, 255, 1)" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg>
+                                </a>
+                            </div>
+                            <div class="contact-icon">
+                                <a href="#">
+                                    <svg class="twitter" viewBox="0 0 512 512"><path fill="rgba(0, 150, 255, 1)" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>
+                                </a>
+                            </div>
+                            <div class="contact-icon">
+                                <a href="#">
+                                    <svg class="instagram" viewBox="0 0 448 512"><path fill="rgba(0, 150, 255, 1)" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="wr-specialists-specialist">
+                        <div>
+                            <picture>
+                                <source srcset="./media/index/doctor41x.webp"> <img src="./media/index/doctor41x.jpg"></picture>
+                        </div>
+                        <div class="specialist-name">
+                            <p>Semenio Doe</p>
+                            <p>DEntist</p>
+
+                        </div>
+                        <div class="specialists-contacts">
+                            <div class="contact-icon">
+                                <a href="#">
+                                    <svg class="facebook" viewBox="0 0 320 512"><path fill="rgba(0, 150, 255, 1)" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg>
+                                </a>
+                            </div>
+                            <div class="contact-icon">
+                                <a href="#">
+                                    <svg class="twitter" viewBox="0 0 512 512"><path fill="rgba(0, 150, 255, 1)" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>
+                                </a>
+                            </div>
+                            <div class="contact-icon">
+                                <a href="#">
+                                    <svg class="instagram" viewBox="0 0 448 512"><path fill="rgba(0, 150, 255, 1)" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ***************OUR CLIENTS SPEAK*************** -->
+        <section class="wr-clients-reviews">
+
+            <div class="wrapper">
+
+                <div class="wr-clients-reviews-heading">
+                    <h2>Our Clients Speak</h2>
+                    <p>We have been working with clients around the world</p>
+                </div>
+
+                <div class="wr-clients-reviews-content">
+                    <div class="review">
+
+                        <div class="review-content">
+                            <h3>Lorem Ipsum is simply dummy text</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
+                        </div>
+                        <div class="reviewer">
+                            <img src="./media/index/client1x.png" alt="client">
+                            <p>Jane Cooper</p>
+                            <p>CEO at ABC Corporation</p>
+                        </div>
+                    </div>
+
+                    <div class="review">
+
+                        <div class="review-content">
+                            <h3>Lorem Ipsum is simply dummy text</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
+                        </div>
+                        <div class="reviewer">
+                            <img src="./media/index/client1x.png" alt="client">
+                            <p>Jane Cooper</p>
+                            <p>CEO at ABC Corporation</p>
+                        </div>
+                    </div>
+
+                    <div class="review">
+
+                        <div class="review-content">
+                            <h3>Lorem Ipsum is simply dummy text</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
+                        </div>
+                        <div class="reviewer">
+                            <img src="./media/index/client1x.png" alt="client">
+                            <p>Jane Cooper</p>
+                            <p>CEO at ABC Corporation</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ***************OUR BLOG*************** -->
+        <section class="wr-blog">
+            <div class="wrapper">
+
+                <div class="wr-blog-heading">
+                    <h2>Our Blog</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc<br> odio in et, lectus sit lorem id integer.</p>
+                </div>
+
+                <div class="wr-blog-content">
+                    <div class="wr-blog-content-chat">
+                        <picture>
+                            <source src="./media/index/blog11x.webp">
+                            <img src="./media/index/blog11x.jpg">
+                        </picture>
+                        <div class="chat-info">
+                            <a class="client-name" href="#">By Akash</a>
+                            <time>27 Sep 2020</time>
+                            <div class="chat">
+                                <a href="#"><img src="./media/index/blogiconletter.png" alt="chat"></a>
+                                <span>280</span>
+                            </div>
+                            <div class="likes">
+                                <a href="#"><img src="./media/index/blogiconheart.png" alt="like"></a>
+                                <span>89</span>
+                            </div>
+                        </div>
+                        <div class="chat-content">
+                            <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
+                            <p>Your bedroom is where you begin and end every day, and when it’s styled just how you like it, it can set the perfect tone. Whether you’re making a few easy updates or starting fresh ...</p>
+                        </div>
+                    </div>
+
+                    <div class="wr-blog-content-chat">
+                        <picture>
+                            <source src="./media/index/blog21x.webp">
+                            <img src="./media/index/blog21x.jpg">
+                        </picture>
+                        <div class="chat-info">
+                            <a class="client-name" href="#">By Akash</a>
+                            <time>27 Sep 2020</time>
+                            <div class="chat">
+                                <a href="#"><img src="./media/index/blogiconletter.png" alt="chat"></a>
+                                <span>280</span>
+                            </div>
+                            <div class="likes">
+                                <a href="#"><img src="./media/index/blogiconheart.png" alt="like"></a>
+                                <span>89</span>
+                            </div>
+                        </div>
+                        <div class="chat-content">
+                            <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
+                            <p>Your bedroom is where you begin and end every day, and when it’s styled just how you like it, it can set the perfect tone. Whether you’re making a few easy updates or starting fresh ...</p>
+                        </div>
+                    </div>
+
+                    <div class="wr-blog-content-chat">
+                        <picture>
+                            <source src="./media/index/blog31x.webp">
+                            <img src="./media/index/blog31x.jpg">
+                        </picture>
+                        <div class="chat-info">
+                            <a class="client-name" href="#">By Akash</a>
+                            <time>27 Sep 2020</time>
+                            <div class="chat">
+                                <a href="#"><img src="./media/index/blogiconletter.png" alt="chat"></a>
+                                <span>280</span>
+                            </div>
+                            <div class="likes">
+                                <a href="#"><img src="./media/index/blogiconheart.png" alt="like"></a>
+                                <span>89</span>
+                            </div>
+                        </div>
+                        <div class="chat-content">
+                            <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
+                            <p>Your bedroom is where you begin and end every day, and when it’s styled just how you like it, it can set the perfect tone. Whether you’re making a few easy updates or starting fresh ...</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ***************FOOTER*************** -->
+
+        <footer>
+            <div class="wrapper">
+                <div class="about">
+                    <img class="footerlogo" src="./media/index/footerlogo.png" alt="logo">
+                    <h3>About Us</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+                </div>
+
+                <div class="contacts">
+                    <p><span>Business hours:</span><br>Monday to Saturday 9:30 am - 4:30 pm</p>
+                    <p><span>Address:</span><br>A-67 south Ex Delhi-11002</p>
+                    <p><span>Email:</span><br>abc@abc.com</p>
+                    <p><span>Phone:</span><br>1800 - 458495-4455</p>
+                </div>
+
+                <div class="connection">
+                    <h3>Stay Connected</h3>
+                    <div class="networks">
+                        <div class="networks-icon">
+                            <a href="#">
+                                <svg class="facebook" viewBox="0 0 320 512"><path fill="rgba(255, 255, 255, 1)" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg>
+                            </a>
+                        </div>
+                        <a class="networks-name" href="#">Facebook</a>
+                    </div>
+
+                    <div class="networks">
+                        <div class="networks-icon">
+                            <a href="#">
+                                <svg class="twitter" viewBox="0 0 512 512"><path fill="rgba(255, 255, 255, 1)" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>
+                            </a>
+                        </div>
+                        <a class="networks-name" href="#">Twitter</a>
+                    </div>
+
+                    <div class="networks">
+                        <div class="networks-icon">
+                            <a href="">
+                                <svg class="google" viewBox="0 0 488 512"><path fill="rgba(255, 255, 255, 1)" d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z"></path></svg>
+                            </a>
+                        </div>
+                        <a class="networks-name" href="#">Google</a>
+                    </div>
+
+                    <div class="networks">
+                        <div class="networks-icon">
+                            <a href="#">
+                                <svg class="instagram" viewBox="0 0 448 512"><path fill="rgba(255, 255, 255, 1)" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>
+                            </a>
+                        </div>
+                        <a class="networks-name" href="#">Instagram</a>
+                    </div>
+                    <div class="networks">
+                        <div class="networks-icon">
+                            <a href="#">
+                                <svg class="youtube" viewBox="0 0 576 512"><path fill="rgba(255, 255, 255, 1)" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg>
+                            </a>
+                        </div>
+                        <a class="networks-name" href="#">Youtube</a>
+                    </div>
+                </div>
+
+                <div class="newsletter">
+                    <h3>Newsletter</h3>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <form name="email" method="post" action="handler.php">
+                        <input type="email" placeholder="Enter Email ID" name="email">
+                        <input type="submit" value="Subscribe">
+                    </form>
                 </div>
-            </div>
-            <div class="test">
-                <div class="test-icon"><img src="./media/index/test2.png" alt="test2"></div>
-                <div class="test-info">
-                    <h4>Teeth Testing</h4>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                </div>
-            </div>
-            <div class="test">
-                <div class="test-icon"><img src="./media/index/test3.png" alt="test3"></div>
-                <div class="test-info">
-                    <h4>Teeth Testing</h4>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                </div>
-            </div>
-            <div class="test">
-                <div class="test-icon"><img src="./media/index/test41.png" alt="test41"></div>
-                <div class="test-icon-2"><img src="./media/index/test42.png" alt="test42"></div>
-                <div class="test-info">
-                    <h4>Teeth Testing</h4>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ***************ADVISE*************** -->
-
-    <section class="advises">
-        <div class="advises-block">
-            <div class="advises-block-photo">
-                <img src="./media/index/girl1x.jpg" alt="girl">
-            </div>
-            <div class="advises-block-advises">
-                <h2>Relax your dentist knows best</h2>
-                <div class="advise">
-                    <h3>Dental hygiene never forget!</h3>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                </div>
-                <div class="advise">
-                    <h3>Don’t rush when you brush!</h3>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                </div>
-                <div class="advise">
-                    <h3>Visit your dentist once in 6 months</h3>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ***************SERVICES*************** -->
-    <section class="wr-services">
-
-        <div class="wr-services-heading">
-            <h2><strong>Our Umbrella of Services</strong><br>Pain free procedures in dentistry</h2>
-        </div>
-
-        <div class="wr-services-services">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div>
-                <h3>Teeth Whitening</h3>
-                <p class="service-info">Lorem ipsum dolor amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.</p>
-                <p><a href="#">Explore &#8594;</a></p>
-            </div>
-            <div></div>
-            <div>
-                <h3>Teeth Cleaning</h3>
-                <p class="service-info">Lorem ipsum dolor amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.</p>
-                <p><a href="#">Explore &#8594;</a></p>
-            </div>
-            <div></div>
-            <div>
-                <h3>Modern Anesthetic</h3>
-                <p class="service-info">Lorem ipsum dolor amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.</p>
-                <p><a href="#">Explore &#8594;</a></p>
-            </div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div>
-                <h3>Quality Brackets</h3>
-                <p class="service-info">Lorem ipsum dolor amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.</p>
-                <p><a href="#">Explore &#8594;</a></p>
-            </div>
-            <div></div>
-            <div>
-                <h3>Teeth Whitening</h3>
-                <p class="service-info">Lorem ipsum dolor amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.</p>
-                <p><a href="#">Explore &#8594;</a></p>
-            </div>
-            <div></div>
-            <div>
-                <h3>Teeth Cleaning</h3>
-                <p class="service-info">Lorem ipsum dolor amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.</p>
-                <p><a href="#">Explore &#8594;</a></p>
-            </div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-
-        <div class="wr-services-explore">
-            <a href="#">Explore all &#8594;</a>
-        </div>
-
-    </section>
-
-    <!-- ***************SPECIALISTS*************** -->
-
-
-
+        </footer>
 
 </body>
 
