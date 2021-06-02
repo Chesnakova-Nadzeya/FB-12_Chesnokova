@@ -10,6 +10,7 @@ new Swiper('.swiper-container', {
     centerSlides: true,
 
 
+
     pagination: {
         el: '.swiper-pagination',
         clickable: true,
@@ -19,7 +20,7 @@ new Swiper('.swiper-container', {
     // effect: 'coverflow',
 
     breakpoints: {
-        320: {
+        360: {
             slidesPerView: 1,
         },
         480: {
@@ -27,7 +28,7 @@ new Swiper('.swiper-container', {
         },
         992: {
             slidesPerView: 3,
-        },
-    }
+        }
+    },
 
 });

@@ -29,8 +29,6 @@
 }
 
 .wr-clients-reviews .wrapper .swiper-container {
-    display: flex;
-    justify-content: space-between;
     padding-top: 51px;
 }
 
@@ -43,10 +41,12 @@
 .wr-clients-reviews .wrapper .swiper-container .swiper-slide:hover {
     transform: scale(1.1);
     top: -30px;
+    cursor: grab;
 }
 
 .swiper-container .swiper-wrapper {
     max-width: 1170px;
+    display: flex;
 }
 
 .swiper-container .swiper-slide .review-content {
@@ -104,4 +104,48 @@
     width: 6px;
     height: 6px;
     border: 3px solid #2296F9;
+}
+
+
+/*******************МЕДИАЗАПРОСЫ********************/
+
+@media (max-width:360px) {
+    .wr-clients-reviews .wrapper .wr-clients-reviews-heading h2 {
+        font-size: 34px;
+        line-height: 32px;
+    }
+    .wr-clients-reviews .wrapper .swiper-container {
+        padding-top: 15px;
+    }
+    .wr-clients-reviews .wrapper .wr-clients-reviews-heading p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .swiper-container .swiper-wrapper {
+        max-width: 1068px;
+    }
+    .swiper-container-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        left: -367px;
+    }
+    .wr-clients-reviews .wrapper .swiper-container .swiper-slide {
+        padding-left: 80px;
+        padding-right: 20px;
+    }
+    .swiper-container .swiper-slide .review-content {
+        margin-top: -244px;
+    }
+    .swiper-container .swiper-slide .review-content h3 {
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 0px;
+    }
+    .swiper-container .swiper-slide .review-content p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .wr-clients-reviews {
+        margin-top: -50px;
+    }
 }

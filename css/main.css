@@ -1,1140 +1,1221 @@
-    @import "../css/normalize.css";
-    @import "../fonts/";
-    @import "../css/settings.css";
-    /*************************HEADER*************************/
-    
-    .wr-preview {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    header .wrapper {
-        display: flex;
-        justify-content: space-between;
-        min-height: 72px;
-        background-color: rgba(255, 255, 255, 1);
-        box-shadow: 0px 1px 0px #E5E9F2;
-        position: relative;
-    }
-    
-    header .wrapper img.circle {
-        position: absolute;
-        right: 0;
-        top: 0;
-        z-index: -1;
-    }
-    
-    header .wrapper nav {
-        width: 23%;
-    }
-    
-    nav ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        padding-top: 10px;
-    }
-    
-    nav ul li a {
-        font-family: "Manrope-bold", sans-serif;
-        font-size: 14px;
-        line-height: 20px;
-        font-weight: bold;
-        color: #18191f;
-    }
-    
-    nav ul li a.page {
-        color: rgba(34, 150, 249, 1);
-    }
-    
-    .logo {
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        padding-top: 20px;
-    }
-    
-    .header-icons {
-        display: flex;
-        justify-content: space-between;
-        min-width: 14.5%;
-    }
-    
-    .header-icons .icon {
-        position: relative;
-        width: 32px;
-        height: 32px;
-        background-color: rgb(128, 202, 255, 0.1);
-        border-radius: 50%;
-    }
-    
-    .header-icons .icon:hover {
-        transform: scale(1.2);
-    }
-    
-    .icon a svg {
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        top: 25%;
-    }
-    
-    .header-icons .instagram {
-        width: 18px;
-        height: 18px;
-    }
-    
-    .header-icons .facebook {
-        width: 9px;
-        height: 16px;
-    }
-    
-    .header-icons .twitter {
-        width: 17px;
-        height: 14px;
-    }
-    
-    .header-icons .youtube {
-        width: 19px;
-        height: 15px;
-    }
-    /*************************WR-WELCOME*************************/
-    
-    .wr-welcome .wrapper {
-        display: flex;
-        margin-bottom: 9px;
-    }
-    
-    .wr-welcome .wrapper .wrapper-welcome {
-        min-width: 50%;
-    }
-    
-    .wr-welcome .wrapper .wrapper-welcome-photo .welcome-photo {
-        padding-top: 89px;
-    }
-    
-    .wr-welcome .wrapper .wrapper-welcome-photo {
-        width: 48%;
-    }
-    
-    .wr-welcome .wrapper .wrapper-welcome p:first-child {
-        font-family: "Manrope-regular", sans-serif;
-        font-size: 25px;
-        line-height: 34px;
-        letter-spacing: -0.376923px;
-        color: #0096FF;
-        margin-top: 192px;
-        margin-bottom: -12px;
-    }
-    
-    .wr-welcome .wrapper .wrapper-welcome h1 {
-        font-family: "Manrope-extrabold", sans-serif;
-        font-size: 40px;
-        line-height: 42px;
-        color: #18191F;
-    }
-    
-    .wr-welcome .wrapper .wrapper-welcome p:last-of-type {
-        font-family: "Manrope-regular", sans-serif;
-        font-size: 18px;
-        line-height: 32px;
-        color: #18191F;
-        margin-top: -10px;
-    }
-    
-    .wr-welcome .wrapper .wrapper-welcome button {
-        width: 248px;
-        height: 64px;
-        background: #0096FF;
-        border-radius: 10px;
-        border: solid 1px #0096FF;
-        font-family: "Manrope-bold", sans-serif;
-        font-size: 22px;
-        line-height: 30px;
-        text-align: center;
-        color: #FFFFFF;
-    }
-    
-    .wr-welcome .wrapper .wrapper-welcome button:hover {
-        transform: scale(1.1);
-    }
-    
-    .wr-welcome .wrapper .wrapper-welcome button a {
-        color: #FFFFFF;
-    }
-    
-    .wr-welcome .wrapper .wrapper-welcome button a:hover {
-        color: #000000;
-    }
-    /*************************WR-CALL*************************/
-    
-    .wr-call {
-        margin-bottom: 70px;
-    }
-    
-    .wr-call .wrapper {
-        background-color: rgba(240, 246, 251, 1);
-        min-height: 148px;
-    }
-    
-    .wr-call .wrapper h2 {
-        font-family: "Helvetica-regular", sans-serif;
-        font-size: 28px;
-        line-height: 33px;
-        text-align: center;
-        color: #0096FF;
-        padding-top: 55px;
-    }
-    
-    .wr-call .wrapper h2 span {
-        font-family: "Helvetica-bold", sans-serif;
-    }
-    /*************************TESTING*************************/
-    
-    .testing {
-        margin-bottom: 80px;
-    }
-    
-    .testing .wrapper {
-        display: flex;
-        justify-content: space-around;
-        padding-left: 7.5%;
-        padding-right: 7.5%;
-    }
-    
-    .testing .wrapper .test {
-        width: 21%;
-        height: 180px;
-        background: #0096FF;
-        border-radius: 20px;
-        position: relative;
-    }
-    
-    .testing .wrapper .test:hover {
-        transform: scale(1.2);
-        cursor: pointer;
-    }
-    
-    .testing .wrapper .test .test-icon {
-        height: 87.01px;
-        width: 86.98px;
-        position: absolute;
-        right: 23px;
-        top: 20px;
-    }
-    
-    .testing .wrapper .test .test-icon-2 {
-        position: absolute;
-        right: 52px;
-        top: 50px;
-    }
-    
-    .testing .wrapper .test .test-info {
-        position: absolute;
-        bottom: 2px;
-        right: 16px;
-        left: 16.19px;
-    }
-    
-    .testing .wrapper .test .test-info h4 {
-        font-family: "Helvetica-bold", sans-serif;
-        font-size: 14px;
-        line-height: 16px;
-        color: #FFFFFF;
-        margin-bottom: -3px;
-    }
-    
-    .testing .wrapper .test .test-info p {
-        font-family: "Helvetica-bold", sans-serif;
-        font-size: 12px;
-        line-height: 133.5%;
-        color: #FFFFFF;
-    }
-    /*************************ADVISE*************************/
-    
-    .advises .wrapper {
-        display: flex;
-        justify-content: space-around;
-        background-image: url(../media/index/purplecircle.png);
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    
-    .advises .wrapper .advises-block-advises {
-        display: flex;
-        flex-direction: column;
-        padding-top: 77px;
-        margin-left: -70px;
-    }
-    
-    .advises .wrapper .advises-block-advises h2 {
-        font-family: "Manrope-bold", sans-serif;
-        font-size: 20px;
-        line-height: 27px;
-        letter-spacing: -1.3px;
-        text-transform: uppercase;
-        margin-bottom: 12px;
-    }
-    
-    .advises .wrapper .advises-block-advises .advise h3 {
-        font-family: "Manrope-regular", sans-serif;
-        font-size: 20px;
-        line-height: 27px;
-        color: #0096FF;
-        margin-bottom: -32px;
-    }
-    
-    .advises .wrapper .advises-block-advises .advise {
-        margin-bottom: -10px;
-    }
-    
-    .advises .wrapper .advises-block-advises .advise p {
-        font-family: "Manrope-regular", sans-serif;
-        font-size: 14px;
-        line-height: 19px;
-        margin-top: 34px;
-    }
-    /*************************SERVICES*************************/
-    
-    .wr-services {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        padding-top: 12px;
-        margin-bottom: 71px;
-    }
-    
-    .wr-services .wr-services-heading {
-        min-height: 128px;
-        margin-bottom: 58px;
-    }
-    
-    .wr-services .wr-services-heading h2 {
-        font-family: "Manrope-extrabold", sans-serif;
-        font-size: 36px;
-        line-height: 64px;
-        text-align: center;
-    }
-    
-    .wr-services .wr-services-services {
-        display: grid;
-        grid-template-columns: 24% 14% 24% 14% 24%;
-        grid-template-rows: 48% 48%;
-        max-width: 1171px;
-        min-height: 546px;
-    }
-    
-    .wr-services .wr-services-services h3 {
-        font-family: "Manrope-semibold", sans-serif;
-        font-size: 24px;
-        line-height: 32px;
-        color: #18191F;
-        margin-bottom: -4px;
-    }
-    
-    .wr-services .wr-services-services .service-info {
-        font-family: "Manrope-regular", sans-serif;
-        font-size: 16px;
-        line-height: 26px;
-        color: #18191F;
-        margin-bottom: 40px;
-    }
-    
-    .wr-services .wr-services-services a {
-        font-family: "Manrope-bold", sans-serif;
-        font-size: 12px;
-        line-height: 16px;
-        color: #0096FF;
-    }
-    
-    .wr-services .wr-services-services a:hover {
-        color: #000000;
-        font-size: 14px;
-    }
-    
-    .wr-services .wr-services-explore {
-        text-align: center;
-    }
-    
-    .wr-services .wr-services-explore a {
-        font-family: "Manrope-bold", sans-serif;
-        font-weight: bold;
-        font-size: 20px;
-        line-height: 30px;
-        color: #000000;
-    }
-    
-    .wr-services .wr-services-explore a:hover {
-        color: rgba(0, 150, 255, 1);
-        font-size: 22px;
-    }
-    /*************************SPECIALISTS*************************/
-    
-    .wr-specialists {
-        margin-top: 25px;
-        margin-bottom: 74px;
-    }
-    
-    .wr-specialists .wrapper {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        position: relative;
-    }
-    
-    .wr-specialists .wrapper .wr-specialists-heading a h2 {
-        font-family: "Manrope-extrabold", sans-serif;
-        font-size: 36px;
-        line-height: 64px;
-        color: #18191F;
-    }
-    
-    .wr-specialists .wrapper .wr-specialists-heading a h2:hover {
-        color: rgba(0, 150, 255, 1);
-        transform: scale(1.2);
-    }
-    
-    .wr-specialists .wrapper .wr-specialists-info {
-        display: flex;
-        justify-content: space-between;
-        padding-top: 5px;
-        margin-bottom: 75px;
-    }
-    
-    .wr-specialists .wrapper .wr-specialists-info .wr-specialists-specialist {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .wr-specialists-info .wr-specialists-specialist .specialist-name p:first-child {
-        font-family: "Manrope-regular", sans-serif;
-        font-size: 20px;
-        line-height: 27px;
-        letter-spacing: -0.376923px;
-        text-transform: uppercase;
-        margin-top: 15px;
-    }
-    
-    .wr-specialists-info .wr-specialists-specialist .specialist-name p:last-child {
-        font-family: "Manrope-bold", sans-serif;
-        font-weight: bold;
-        font-size: 16px;
-        line-height: 22px;
-        letter-spacing: -0.376923px;
-        text-transform: uppercase;
-        color: #0096FF;
-        margin-top: -18px;
-        margin-bottom: 5px;
-    }
-    
-    .specialists-contacts {
-        display: flex;
-        justify-content: space-between;
-        padding: 0px 97px 0px 93px;
-    }
-    
-    .specialists-contacts .contact-icon .facebook,
-    .specialists-contacts .contact-icon .twitter,
-    .specialists-contacts .contact-icon .instagram {
-        height: 16px;
-    }
-    /*************************OUR BLOG*************************/
-    
-    .wr-blog {
-        margin-bottom: 69px;
-        margin-top: -43px;
-    }
-    
-    .wr-blog .wrapper {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-    
-    .wr-blog .wrapper .wr-blog-heading a h2 {
-        font-family: "Manrope-extrabold", sans-serif;
-        font-size: 36px;
-        line-height: 64px;
-        margin-bottom: -13px;
-        color: #18191F;
-    }
-    
-    .wr-blog .wrapper .wr-blog-heading a h2:hover {
-        color: rgba(0, 150, 255, 1);
-        transform: scale(1.2);
-    }
-    
-    .wr-blog .wrapper .wr-blog-heading p {
-        font-family: "Manrope-regular", sans-serif;
-        font-size: 18px;
-        line-height: 32px;
-        color: #18191F;
-    }
-    
-    .wr-blog .wrapper .wr-blog-content {
-        display: flex;
-        justify-content: space-between;
-        padding-top: 24px;
-    }
-    
-    .wr-blog .wrapper .wr-blog-content .wr-blog-content-chat {
-        display: flex;
-        flex-direction: column;
-        max-width: 30.5%;
-    }
-    
-    .wr-blog-content .wr-blog-content-chat .chat-info {
-        display: flex;
-        flex-direction: row;
-        justify-content: left;
-    }
-    
-    .wr-blog-content .wr-blog-content-chat .chat-info a.client-name {
-        font-family: "Roboto-regular", sans-serif;
-        font-size: 12px;
-        line-height: 22px;
-        color: #2296F9;
-        padding-right: 38px;
-    }
-    
-    .wr-blog-content .wr-blog-content-chat .chat-info time,
-    .wr-blog-content .wr-blog-content-chat .chat-info .chat span,
-    .wr-blog-content .wr-blog-content-chat .chat-info .likes span {
-        font-family: "Roboto-regular", sans-serif;
-        font-size: 12px;
-        line-height: 22px;
-        color: #999999;
-        padding-right: 22px;
-    }
-    
-    .wr-blog-content .wr-blog-content-chat .chat-info .likes {
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    .wr-blog .wrapper .wr-blog-content .chat-content h3 {
-        font-family: "Manrope-bold", sans-serif;
-        font-size: 18px;
-        line-height: 26px;
-        text-align: justify;
-        margin-top: 9px;
-        margin-bottom: -4px;
-    }
-    
-    .wr-blog .wrapper .wr-blog-content .chat-content p {
-        font-family: "Manrope-regular", sans-serif;
-        font-size: 14px;
-        line-height: 21px;
-        color: #666666;
-        text-align: justify;
-        padding-right: 18px;
-    }
-    /************************FOOTER************************/
-    
-    footer .wrapper {
-        display: flex;
-        justify-content: space-between;
-        min-height: 288px;
-        background-color: rgba(0, 150, 255, 1);
-        color: rgba(255, 255, 255, 1);
-        padding-top: 3px;
-    }
-    
-    footer .wrapper .about {
-        max-width: 25.5%;
-        padding-top: 32px;
-    }
-    
-    footer .wrapper .about a img {
-        padding-bottom: 7px;
-        width: 146px;
-    }
-    
-    footer .wrapper .about a img:hover {
-        transform: scale(1.2);
-    }
-    
-    footer .wrapper .contacts {
-        max-width: 18%;
-        padding-top: 6px;
-        padding-left: 10px;
-    }
-    
-    footer .wrapper .contacts p {
-        font-family: "Manrope-regular", sans-serif;
-        font-size: 12px;
-        line-height: 16px;
-        padding-top: 15px;
-    }
-    
-    footer .wrapper .contacts p span {
-        font-family: "Manrope-regular", sans-serif;
-        font-size: 14px;
-    }
-    
-    footer .wrapper .connection {
-        max-width: 13%;
-        padding-top: 12px;
-    }
-    
-    footer .wrapper .newsletter {
-        max-width: 16%;
-        padding-top: 12px;
-    }
-    
-    footer .wrapper .newsletter p {
-        font-family: "Manrope-regular", sans-serif;
-        font-size: 14px;
-        line-height: 19px;
-        padding-top: 6px;
-    }
-    
-    footer .wrapper .connection .networks {
-        display: flex;
-        margin-bottom: 11px;
-    }
-    
-    footer .wrapper .connection .networks .networks-icon {
-        width: 12.5px;
-        height: 11px;
-        margin-right: 12px;
-    }
-    
-    footer .wrapper .connection .networks .networks-icon a svg:hover {
-        transform: scale(1.5);
-    }
-    
-    footer .wrapper .connection .networks a.networks-name {
-        font-family: "Manrope-regular", sans-serif;
-        font-size: 12px;
-        line-height: 16px;
-        color: #FFFFFF;
-    }
-    
-    footer .wrapper .connection .networks a.networks-name:hover {
-        color: #000;
-    }
-    
-    footer .wrapper a h3 {
-        font-family: "Manrope-regular", sans-serif;
-        font-size: 20px;
-        line-height: 27px;
-        color: #FFFFFF;
-    }
-    
-    footer .wrapper a h3:hover {
-        color: #000;
-    }
-    
-    footer .wrapper h3 {
-        font-family: "Manrope-regular", sans-serif;
-        font-size: 20px;
-        line-height: 27px;
-    }
-    
-    footer .wrapper .about p {
-        font-family: "Manrope-regular", sans-serif;
-        font-size: 14px;
-        line-height: 19px;
-    }
-    
-    footer input[type=email] {
-        padding: 7px;
-        font-family: "Rubik-light", sans-serif;
-        font-weight: 300;
-        font-size: 10px;
-        line-height: 12px;
-        color: #808080;
-        background: #FFFFFF;
-        border: 1px solid #FFFFFF;
-        box-sizing: border-box;
-        height: 27px;
-        width: 120px;
-    }
-    
-    footer input[type=submit] {
-        position: absolute;
-        height: 27px;
-        width: 67px;
-        background: #0096FF;
-        border: 1px solid #FFFFFF;
-        box-sizing: border-box;
-        font-family: "Rubik-medium", sans-serif;
-        font-size: 10px;
-        line-height: 12px;
-        color: #FFFFFF;
-        cursor: pointer;
-    }
-    
-    footer input[type=submit]:hover {
-        color: #000;
-        transform: scale(1.2);
-    }
-    /************************PAGE 2: ABOUT US************************/
-    /************************ABOUT US************************/
-    
-    .about {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .about .page-title .wrapper {
-        background-color: rgba(0, 150, 255, 1);
-        min-height: 148px;
-        text-align: center;
-    }
-    
-    .about .page-title .wrapper .home:hover {
-        color: rgba(246, 246, 246, 1);
-        font-size: 18px;
-    }
-    
-    .about .page-title {
-        margin-top: -28px;
-    }
-    
-    .about .page-title .wrapper p {
-        font-family: "Helvetica-bold", sans-serif;
-        font-weight: bold;
-        font-size: 29px;
-        line-height: 33px;
-        color: #FFFFFF;
-        padding-top: 42px;
-        margin-bottom: 11px;
-    }
-    
-    .about .page-title .wrapper a,
-    .about .page-title .wrapper span {
-        font-family: "Helvetica-regular", sans-serif;
-        font-size: 16px;
-        line-height: 18px;
-        color: #222222;
-    }
-    
-    .about .wrapper .about-content {
-        display: flex;
-    }
-    
-    .about .wrapper .about-content .about-content-photo {
-        padding-top: 75px;
-    }
-    
-    .about .wrapper .about-content h2 {
-        font-family: "Manrope-extrabold", sans-serif;
-        font-size: 30px;
-        line-height: 64px;
-        text-align: left;
-        padding-top: 62px;
-    }
-    
-    .about .wrapper .about-content h2 span {
-        font-family: "Manrope-extrabold", sans-serif;
-        font-size: 34px;
-        line-height: 64px;
-    }
-    
-    .about .wrapper .about-content .about-content-content p {
-        font-family: "Manrope-regular", sans-serif;
-        font-size: 16px;
-        line-height: 26px;
-        color: #18191F;
-        margin-top: -20px;
-    }
-    /************************EXPERIENCE************************/
-    
-    .experience {
-        position: relative;
-        margin-bottom: 118px;
-    }
-    
-    .experience .wrapper {
-        display: flex;
-        background-color: rgba(240, 246, 251, 1);
-        margin-top: 40px;
-    }
-    
-    .experience .wrapper .experience-content {
-        width: 48%;
-    }
-    
-    .experience .wrapper .experience-content h2 {
-        font-family: "Manrope-bold", sans-serif;
-        font-size: 36px;
-        line-height: 64px;
-        padding-top: 45px;
-        margin-bottom: 5px;
-    }
-    
-    .experience .wrapper .experience-content p {
-        font-family: "Manrope-regular", sans-serif;
-        font-size: 16px;
-        line-height: 26px;
-        color: #18191F;
-        margin-bottom: 73px;
-    }
-    
-    .experience .wrapper .experience-content-photo {
-        position: absolute;
-        top: -43px;
-        left: 51%;
-    }
-    /************************DEPARTMENT***********************/
-    
-    .departments {
-        margin-bottom: 35px;
-    }
-    
-    .departments .wrapper {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .departments .wrapper .departments-heading {
-        text-align: center;
-        margin-bottom: 40px;
-    }
-    
-    .departments .wrapper .departments-heading h2 {
-        font-family: "Manrope-bold", sans-serif;
-        font-size: 37px;
-        line-height: 49px;
-        margin-bottom: 22px;
-    }
-    
-    .departments .wrapper .departments-heading p {
-        font-family: Helvetica;
-        font-size: 14px;
-        line-height: 16px;
-    }
-    
-    .departments .wrapper .departments-content {
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    .departments .wrapper .departments-content .department {
-        width: 22%;
-    }
-    
-    .departments .wrapper .departments-content .department h3 {
-        font-family: "Helvetica-bold", sans-serif;
-        font-size: 14px;
-        line-height: 16px;
-        color: #2296F9;
-    }
-    
-    .departments .wrapper .departments-content .department p {
-        font-family: "Helvetica-light", sans-serif;
-        font-size: 12px;
-        line-height: 133.5%;
-    }
-    /************************PAGE 3: OUR DOCTORS ************************/
-    /******************PAGE 3:OUR DOCTORS************************/
-    
-    .about .wrapper .our-doctors {
-        display: flex;
-        margin-top: 55px;
-    }
-    
-    .about .wrapper .our-doctors .our-doctors-content {
-        padding-left: 55px;
-        padding-top: 65px;
-        padding-right: 30px;
-    }
-    
-    .about .wrapper .our-doctors .our-doctors-content h2 {
-        font-family: "Manrope-extrabold", sans-serif;
-        font-size: 30px;
-        line-height: 64px;
-    }
-    
-    .about .wrapper .our-doctors .our-doctors-content p {
-        font-family: "Manrope-regular", sans-serif;
-        font-size: 16px;
-        line-height: 26px;
-        color: #18191F;
-        margin-top: -25px;
-    }
-    /******************PAGE 3:SPECIALISTS************************/
-    
-    .scrolling {
-        display: flex;
-        position: absolute;
-        right: 128px;
-        bottom: -25px;
-    }
-    
-    .blog-scrolling {
-        display: flex;
-    }
-    
-    .scrolling .arrow,
-    .blog-scrolling .arrow {
-        width: 46px;
-        height: 46px;
-        background-color: rgba(246, 246, 246, 1);
-        margin-right: 8px;
-        position: relative;
-        cursor: pointer;
-    }
-    
-    .scrolling .arrow:hover,
-    .blog-scrolling .arrow:hover,
-    .scrolling .arrow:active,
-    .blog-scrolling .arrow:active {
-        background-color: rgba(0, 150, 255, 1);
-    }
-    
-    .scrolling .arrow a,
-    .blog-scrolling .arrow a {
-        font-family: "Roboto-medium", sans-serif;
-        font-size: 20px;
-        line-height: 23px;
-        color: #BBBBBB;
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        top: 25%;
-    }
-    
-    .scrolling .arrow a svg,
-    .blog-scrolling .arrow a svg {
-        width: 12px;
-    }
-    
-    .scrolling .arrow:hover a,
-    .blog-scrolling .arrow:hover a {
-        color: rgba(255, 255, 255, 1);
-    }
-    /************************PAGE 4: OUR BLOG************************/
-    
-    .about .blog-main {
-        margin-bottom: 78px;
-    }
-    
-    .about .blog-main .wrapper {
-        display: flex;
-    }
-    
-    .about .blog-main .wrapper .blog-main-photo {
-        padding-top: 47px;
-    }
-    
-    .about .blog-main .wrapper .blog-main-content {
-        padding-left: 26px;
-        padding-top: 22px;
-    }
-    
-    .blog-main-content .blog-main-content-heading h3 {
-        font-family: "Manrope-bold", sans-serif;
-        font-size: 26px;
-        line-height: 26px;
-        margin-bottom: 14px;
-    }
-    
-    .blog-main-content .chat-info,
-    .blog .wrapper .wr-blog-content-chat .chat-info {
-        display: flex;
-        font-family: "Roboto-regular", sans-serif;
-        font-size: 12px;
-        line-height: 22px;
-        color: rgba(153, 153, 153, 1);
-    }
-    
-    .blog-main-content .chat-info .client-name,
-    .blog .wrapper .wr-blog-content-chat .chat-info .client-name {
-        color: rgba(34, 150, 249, 1);
-    }
-    
-    .blog-main-content .chat-info .client-name,
-    .blog .wrapper .wr-blog-content-chat .chat-info .client-name {
-        padding-right: 38px;
-    }
-    
-    .blog-main-content .chat-info time,
-    .blog .wrapper .wr-blog-content-chat .chat-info time,
-    .blog-main-content .chat-info .chat span,
-    .blog .wrapper .wr-blog-content-chat .chat-info span {
-        padding-right: 21px;
-    }
-    
-    .about .blog-main .wrapper .blog-main-content-definition p,
-    .blog .wrapper .wr-blog-content-chat .chat-content p {
-        font-family: "Manrope-regular", sans-serif;
-        font-size: 14px;
-        line-height: 21px;
-        color: #666666;
-        margin-bottom: 22px;
-    }
-    
-    .blog .wrapper .wr-blog-content-chat .chat-content h3 {
-        font-family: "Manrope-bold", sans-serif;
-        font-size: 18px;
-        line-height: 26px;
-        margin-bottom: -4px;
-    }
-    
-    .blog .wrapper .wr-blog-content-chat .chat-content p {
-        padding-right: 10px;
-    }
-    
-    .about .blog-main .wrapper .blog-main-content-definition a {
-        font-family: "Manrope-bold", sans-serif;
-        font-size: 14px;
-        line-height: 21px;
-        color: rgba(34, 150, 249, 1);
-    }
-    
-    .blog .wrapper {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        position: relative;
-    }
-    
-    .blog {
-        margin-bottom: 71px;
-    }
-    
-    .blog-scrolling {
-        position: absolute;
-        bottom: -40px;
-        right: 128px;
-    }
-    
-    .blog .wrapper .wr-blog-content-chat {
-        max-width: 30.5%;
-        margin-bottom: 42px;
-    }
-    
-    .blog .wrapper .wr-blog-content-chat .chat-info {
-        margin-bottom: -10px;
-    }
-    /************************PAGE 5: OUR CONTACT ************************/
-    
-    .contact-info .wrapper {
-        display: flex;
-        justify-content: space-around;
-        text-align: center;
-    }
-    
-    .contact-info .wrapper .contacts h3 {
-        font-family: "Roboto-medium", sans-serif;
-        font-size: 24px;
-        line-height: 35px;
-        margin-top: 5px;
-    }
-    
-    .contact-info .wrapper .contacts p {
-        font-family: "Roboto-regular", sans-serif;
-        font-size: 14px;
-        line-height: 21px;
-        margin-top: -10px;
-    }
-    
-    .about .contact-info {
-        padding-top: 66px;
-        padding-left: 35px;
-        padding-right: 30px;
-    }
-    /********************************* MAP *****************************/
-    
-    .map {
-        margin-top: 70px;
-    }
-    /****************************** GET IN TOUCH *********************/
-    
-    .feedback {
-        margin-top: 56px;
-        margin-bottom: 141px;
-    }
-    
-    .feedback .wrapper h2 {
-        font-family: "Manrope-bold", sans-serif;
-        font-size: 36px;
-        line-height: 49px;
-        text-align: center;
-    }
-    
-    .feedback .wrapper form {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding-right: 12.5%;
-        padding-top: 24px;
-        padding-left: 15.5%;
-    }
-    
-    .feedback .wrapper form p {
-        font-family: "Roboto-medium", sans-serif;
-        font-size: 14px;
-        line-height: 16px;
-        color: #666666;
-        text-align: left;
-    }
-    
-    .feedback .wrapper form .name {
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    .feedback .wrapper form .name input[type=text],
-    .feedback .wrapper form .name input[type=email] {
-        width: 400px;
-        height: 45px;
-        background: #F6F6F6;
-        border-radius: 5px;
-        border: none;
-    }
-    
-    .feedback .wrapper form .name input[type=text]:hover,
-    .feedback .wrapper form .name input[type=email]:hover {
-        border: solid 1px rgba(34, 150, 249, 1);
-    }
-    
-    .feedback .wrapper form .subject {
-        padding-top: 17px;
-    }
-    
-    .feedback .wrapper form .subject input[type=text] {
-        width: 835px;
-        height: 45px;
-        background: #F6F6F6;
-        border-radius: 5px;
-        border: none;
-        margin-bottom: 18px;
-    }
-    
-    .feedback .wrapper form .subject input[type=text]:hover {
-        border: solid 1px rgba(34, 150, 249, 1);
-    }
-    
-    .feedback .wrapper form .subject textarea {
-        width: 835px;
-        height: 145px;
-        background: #F6F6F6;
-        border-radius: 5px;
-        border: none;
-        margin-bottom: 25px;
-    }
-    
-    .feedback .wrapper form .subject textarea:hover {
-        border: solid 1px rgba(34, 150, 249, 1);
-    }
-    
-    .feedback .wrapper form .subject input[type=submit] {
-        background: #0096FF;
-        border-radius: 5px;
-        border: none;
-        font-family: "Roboto-medium", sans-serif;
-        font-size: 16px;
-        line-height: 19px;
-        color: #FFFFFF;
-        width: 173px;
-        height: 48px;
-    }
-    
-    .feedback .wrapper form .subject input[type=submit]:hover {
-        transform: scale(1.1);
-        color: #000;
-    }
+@import "../css/normalize.css";
+@import "../fonts/";
+@import "../css/settings.css";
+
+/*************************HEADER*************************/
+
+.wr-preview {
+    display: flex;
+    flex-direction: column;
+}
+
+header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    min-height: 72px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 1px 0px #E5E9F2;
+    position: relative;
+}
+
+header .wrapper img.circle {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+header .wrapper nav {
+    width: 23%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+nav ul li a {
+    font-family: "Manrope-bold", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #18191f;
+}
+
+nav ul li a.page {
+    color: rgba(34, 150, 249, 1);
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 20px;
+}
+
+.header-icons {
+    display: flex;
+    justify-content: space-between;
+    min-width: 14.5%;
+}
+
+.header-icons .icon {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    background-color: rgb(128, 202, 255, 0.1);
+    border-radius: 50%;
+}
+
+.header-icons .icon:hover {
+    transform: scale(1.2);
+}
+
+.icon a svg {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 25%;
+}
+
+.header-icons .instagram {
+    width: 18px;
+    height: 18px;
+}
+
+.header-icons .facebook {
+    width: 9px;
+    height: 16px;
+}
+
+.header-icons .twitter {
+    width: 17px;
+    height: 14px;
+}
+
+.header-icons .youtube {
+    width: 19px;
+    height: 15px;
+}
+
+
+/*************************WR-WELCOME*************************/
+
+.wr-welcome .wrapper {
+    display: flex;
+    margin-bottom: 9px;
+}
+
+.wr-welcome .wrapper .wrapper-welcome {
+    min-width: 50%;
+}
+
+.wr-welcome .wrapper .wrapper-welcome-photo .welcome-photo {
+    padding-top: 89px;
+}
+
+.wr-welcome .wrapper .wrapper-welcome-photo {
+    width: 48%;
+}
+
+.wr-welcome .wrapper .wrapper-welcome p:first-child {
+    font-family: "Manrope-regular", sans-serif;
+    font-size: 25px;
+    line-height: 34px;
+    letter-spacing: -0.376923px;
+    color: #0096FF;
+    margin-top: 192px;
+    margin-bottom: -12px;
+}
+
+.wr-welcome .wrapper .wrapper-welcome h1 {
+    font-family: "Manrope-extrabold", sans-serif;
+    font-size: 40px;
+    line-height: 42px;
+    color: #18191F;
+}
+
+.wr-welcome .wrapper .wrapper-welcome p:last-of-type {
+    font-family: "Manrope-regular", sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: #18191F;
+    margin-top: -10px;
+}
+
+.wr-welcome .wrapper .wrapper-welcome button {
+    width: 248px;
+    height: 64px;
+    background: #0096FF;
+    border-radius: 10px;
+    border: solid 1px #0096FF;
+    font-family: "Manrope-bold", sans-serif;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.wr-welcome .wrapper .wrapper-welcome button:hover {
+    transform: scale(1.1);
+}
+
+.wr-welcome .wrapper .wrapper-welcome button a {
+    color: #FFFFFF;
+}
+
+.wr-welcome .wrapper .wrapper-welcome button a:hover {
+    color: #000000;
+}
+
+
+/*************************WR-CALL*************************/
+
+.wr-call {
+    margin-bottom: 70px;
+}
+
+.wr-call .wrapper {
+    background-color: rgba(240, 246, 251, 1);
+    min-height: 148px;
+}
+
+.wr-call .wrapper h2 {
+    font-family: "Helvetica-regular", sans-serif;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+    color: #0096FF;
+    padding-top: 55px;
+}
+
+.wr-call .wrapper h2 span {
+    font-family: "Helvetica-bold", sans-serif;
+}
+
+
+/*************************TESTING*************************/
+
+.testing {
+    margin-bottom: 80px;
+}
+
+.testing .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+}
+
+.testing .wrapper .test {
+    width: 21%;
+    height: 180px;
+    background: #0096FF;
+    border-radius: 20px;
+    position: relative;
+}
+
+.testing .wrapper .test:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.testing .wrapper .test .test-icon {
+    height: 87.01px;
+    width: 86.98px;
+    position: absolute;
+    right: 23px;
+    top: 20px;
+}
+
+.testing .wrapper .test .test-icon-2 {
+    position: absolute;
+    right: 52px;
+    top: 50px;
+}
+
+.testing .wrapper .test .test-info {
+    position: absolute;
+    bottom: 2px;
+    right: 16px;
+    left: 16.19px;
+}
+
+.testing .wrapper .test .test-info h4 {
+    font-family: "Helvetica-bold", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-bottom: -3px;
+}
+
+.testing .wrapper .test .test-info p {
+    font-family: "Helvetica-bold", sans-serif;
+    font-size: 12px;
+    line-height: 133.5%;
+    color: #FFFFFF;
+}
+
+
+/*************************ADVISE*************************/
+
+.advises .wrapper {
+    display: flex;
+    justify-content: space-around;
+    background-image: url(../media/index/purplecircle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.advises .wrapper .advises-block-advises {
+    display: flex;
+    flex-direction: column;
+    padding-top: 77px;
+    margin-left: -70px;
+}
+
+.advises .wrapper .advises-block-advises h2 {
+    font-family: "Manrope-bold", sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -1.3px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.advises .wrapper .advises-block-advises .advise h3 {
+    font-family: "Manrope-regular", sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+    color: #0096FF;
+    margin-bottom: -32px;
+}
+
+.advises .wrapper .advises-block-advises .advise {
+    margin-bottom: -10px;
+}
+
+.advises .wrapper .advises-block-advises .advise p {
+    font-family: "Manrope-regular", sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    margin-top: 34px;
+}
+
+
+/*************************SERVICES*************************/
+
+.wr-services {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 12px;
+    margin-bottom: 71px;
+}
+
+.wr-services .wr-services-heading {
+    min-height: 128px;
+    margin-bottom: 58px;
+}
+
+.wr-services .wr-services-heading h2 {
+    font-family: "Manrope-extrabold", sans-serif;
+    font-size: 36px;
+    line-height: 64px;
+    text-align: center;
+}
+
+.wr-services .wr-services-services {
+    display: grid;
+    grid-template-columns: 24% 14% 24% 14% 24%;
+    grid-template-rows: 48% 48%;
+    max-width: 1171px;
+    min-height: 546px;
+}
+
+.wr-services .wr-services-services h3 {
+    font-family: "Manrope-semibold", sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    color: #18191F;
+    margin-bottom: -4px;
+}
+
+.wr-services .wr-services-services .service-info {
+    font-family: "Manrope-regular", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #18191F;
+    margin-bottom: 40px;
+}
+
+.wr-services .wr-services-services a {
+    font-family: "Manrope-bold", sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    color: #0096FF;
+}
+
+.wr-services .wr-services-services a:hover {
+    color: #000000;
+    font-size: 14px;
+}
+
+.wr-services .wr-services-explore {
+    text-align: center;
+}
+
+.wr-services .wr-services-explore a {
+    font-family: "Manrope-bold", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.wr-services .wr-services-explore a:hover {
+    color: rgba(0, 150, 255, 1);
+    font-size: 22px;
+}
+
+
+/*************************SPECIALISTS*************************/
+
+.wr-specialists {
+    margin-top: 25px;
+    margin-bottom: 74px;
+}
+
+.wr-specialists .wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+
+.wr-specialists .wrapper .wr-specialists-heading a h2 {
+    font-family: "Manrope-extrabold", sans-serif;
+    font-size: 36px;
+    line-height: 64px;
+    color: #18191F;
+}
+
+.wr-specialists .wrapper .wr-specialists-heading a h2:hover {
+    color: rgba(0, 150, 255, 1);
+    transform: scale(1.2);
+}
+
+.wr-specialists .wrapper .wr-specialists-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 5px;
+    margin-bottom: 75px;
+}
+
+.wr-specialists .wrapper .wr-specialists-info .wr-specialists-specialist {
+    display: flex;
+    flex-direction: column;
+}
+
+.wr-specialists .wrapper .wr-specialists-info .wr-specialists-specialist a:hover {
+    transform: scale(1.1);
+}
+
+.wr-specialists-info .wr-specialists-specialist .specialist-name p:first-child {
+    font-family: "Manrope-regular", sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.376923px;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.wr-specialists-info .wr-specialists-specialist .specialist-name p:last-child {
+    font-family: "Manrope-bold", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.376923px;
+    text-transform: uppercase;
+    color: #0096FF;
+    margin-top: -18px;
+    margin-bottom: 5px;
+}
+
+.specialists-contacts {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 97px 0px 93px;
+    max-width: 31%;
+}
+
+.specialists-contacts .contact-icon .facebook,
+.specialists-contacts .contact-icon .twitter,
+.specialists-contacts .contact-icon .instagram {
+    height: 16px;
+}
+
+.specialists-contacts .contact-icon .facebook:hover,
+.specialists-contacts .contact-icon .twitter:hover,
+.specialists-contacts .contact-icon .instagram:hover {
+    transform: scale(1.3);
+}
+
+
+/*************************OUR BLOG*************************/
+
+.wr-blog {
+    margin-bottom: 69px;
+    margin-top: -43px;
+}
+
+.wr-blog .wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.wr-blog .wrapper .wr-blog-heading a h2 {
+    font-family: "Manrope-extrabold", sans-serif;
+    font-size: 36px;
+    line-height: 64px;
+    margin-bottom: -13px;
+    color: #18191F;
+}
+
+.wr-blog .wrapper .wr-blog-heading a h2:hover {
+    color: rgba(0, 150, 255, 1);
+    transform: scale(1.2);
+}
+
+.wr-blog .wrapper .wr-blog-heading p {
+    font-family: "Manrope-regular", sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: #18191F;
+}
+
+.wr-blog .wrapper .wr-blog-content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+}
+
+.wr-blog .wrapper .wr-blog-content .wr-blog-content-chat {
+    display: flex;
+    flex-direction: column;
+    max-width: 30.5%;
+}
+
+.wr-blog-content .wr-blog-content-chat .chat-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.wr-blog-content .wr-blog-content-chat .chat-info a.client-name {
+    font-family: "Roboto-regular", sans-serif;
+    font-size: 12px;
+    line-height: 22px;
+    color: #2296F9;
+    padding-right: 38px;
+}
+
+.wr-blog-content .wr-blog-content-chat .chat-info a.client-name:hover {
+    color: #000000;
+}
+
+.wr-blog-content .wr-blog-content-chat .chat-info time,
+.wr-blog-content .wr-blog-content-chat .chat-info .chat span,
+.wr-blog-content .wr-blog-content-chat .chat-info .likes span {
+    font-family: "Roboto-regular", sans-serif;
+    font-size: 12px;
+    line-height: 22px;
+    color: #999999;
+    padding-right: 22px;
+}
+
+.wr-blog-content .wr-blog-content-chat .chat-info .chat:hover,
+.wr-blog-content .wr-blog-content-chat .chat-info .likes:hover {
+    transform: scale(1.2);
+}
+
+.wr-blog-content .wr-blog-content-chat .chat-info .likes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wr-blog .wrapper .wr-blog-content .chat-content h3 {
+    font-family: "Manrope-bold", sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: justify;
+    margin-top: 9px;
+    margin-bottom: -4px;
+}
+
+.wr-blog .wrapper .wr-blog-content .chat-content p {
+    font-family: "Manrope-regular", sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    color: #666666;
+    text-align: justify;
+    padding-right: 18px;
+}
+
+
+/************************FOOTER************************/
+
+footer .wrapper {
+    display: flex;
+    justify-content: space-between;
+    min-height: 288px;
+    background-color: rgba(0, 150, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    padding-top: 3px;
+}
+
+footer .wrapper .about {
+    max-width: 25.5%;
+    padding-top: 32px;
+}
+
+footer .wrapper .about a img {
+    padding-bottom: 7px;
+    width: 146px;
+}
+
+footer .wrapper .about a img:hover {
+    transform: scale(1.2);
+}
+
+footer .wrapper .contacts {
+    max-width: 18%;
+    padding-top: 6px;
+    padding-left: 10px;
+}
+
+footer .wrapper .contacts p {
+    font-family: "Manrope-regular", sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    padding-top: 15px;
+}
+
+footer .wrapper .contacts p span {
+    font-family: "Manrope-regular", sans-serif;
+    font-size: 14px;
+}
+
+footer .wrapper .connection {
+    max-width: 13%;
+    padding-top: 12px;
+}
+
+footer .wrapper .newsletter {
+    max-width: 16%;
+    padding-top: 12px;
+}
+
+footer .wrapper .newsletter p {
+    font-family: "Manrope-regular", sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    padding-top: 6px;
+}
+
+footer .wrapper .connection .networks {
+    display: flex;
+    margin-bottom: 11px;
+}
+
+footer .wrapper .connection .networks .networks-icon {
+    width: 12.5px;
+    height: 11px;
+    margin-right: 12px;
+}
+
+footer .wrapper .connection .networks .networks-icon a svg:hover {
+    transform: scale(1.5);
+}
+
+footer .wrapper .connection .networks a.networks-name {
+    font-family: "Manrope-regular", sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+footer .wrapper .connection .networks a.networks-name:hover {
+    color: #000;
+}
+
+footer .wrapper a h3 {
+    font-family: "Manrope-regular", sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+footer .wrapper a h3:hover {
+    color: #000;
+}
+
+footer .wrapper h3 {
+    font-family: "Manrope-regular", sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+footer .wrapper .about p {
+    font-family: "Manrope-regular", sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+footer input[type=email] {
+    padding: 7px;
+    font-family: "Rubik-light", sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+    color: #808080;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    height: 27px;
+    width: 120px;
+}
+
+footer input[type=submit] {
+    position: absolute;
+    height: 27px;
+    width: 67px;
+    background: #0096FF;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    font-family: "Rubik-medium", sans-serif;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+footer input[type=submit]:hover {
+    color: #000;
+    transform: scale(1.2);
+}
+
+
+/************************PAGE 2: ABOUT US************************/
+
+
+/************************ABOUT US************************/
+
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
+.about .page-title .wrapper {
+    background-color: rgba(0, 150, 255, 1);
+    min-height: 148px;
+    text-align: center;
+}
+
+.about .page-title .wrapper .home:hover {
+    color: rgba(246, 246, 246, 1);
+    font-size: 18px;
+}
+
+.about .page-title {
+    margin-top: -28px;
+}
+
+.about .page-title .wrapper p {
+    font-family: "Helvetica-bold", sans-serif;
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 33px;
+    color: #FFFFFF;
+    padding-top: 42px;
+    margin-bottom: 11px;
+}
+
+.about .page-title .wrapper a,
+.about .page-title .wrapper span {
+    font-family: "Helvetica-regular", sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    color: #222222;
+}
+
+.about .wrapper .about-content {
+    display: flex;
+}
+
+.about .wrapper .about-content .about-content-photo {
+    padding-top: 75px;
+}
+
+.about .wrapper .about-content h2 {
+    font-family: "Manrope-extrabold", sans-serif;
+    font-size: 30px;
+    line-height: 64px;
+    text-align: left;
+    padding-top: 62px;
+}
+
+.about .wrapper .about-content h2 span {
+    font-family: "Manrope-extrabold", sans-serif;
+    font-size: 34px;
+    line-height: 64px;
+}
+
+.about .wrapper .about-content .about-content-content p {
+    font-family: "Manrope-regular", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #18191F;
+    margin-top: -20px;
+}
+
+
+/************************EXPERIENCE************************/
+
+.experience {
+    position: relative;
+    margin-bottom: 118px;
+}
+
+.experience .wrapper {
+    display: flex;
+    background-color: rgba(240, 246, 251, 1);
+    margin-top: 40px;
+}
+
+.experience .wrapper .experience-content {
+    width: 48%;
+}
+
+.experience .wrapper .experience-content h2 {
+    font-family: "Manrope-bold", sans-serif;
+    font-size: 36px;
+    line-height: 64px;
+    padding-top: 45px;
+    margin-bottom: 5px;
+}
+
+.experience .wrapper .experience-content p {
+    font-family: "Manrope-regular", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #18191F;
+    margin-bottom: 73px;
+}
+
+.experience .wrapper .experience-content-photo {
+    position: absolute;
+    top: -43px;
+    left: 51%;
+}
+
+
+/************************DEPARTMENT***********************/
+
+.departments {
+    margin-bottom: 35px;
+}
+
+.departments .wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.departments .wrapper .departments-heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.departments .wrapper .departments-heading h2 {
+    font-family: "Manrope-bold", sans-serif;
+    font-size: 37px;
+    line-height: 49px;
+    margin-bottom: 22px;
+}
+
+.departments .wrapper .departments-heading p {
+    font-family: Helvetica;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.departments .wrapper .departments-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.departments .wrapper .departments-content .department {
+    width: 22%;
+}
+
+.departments .wrapper .departments-content .department h3 {
+    font-family: "Helvetica-bold", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2296F9;
+}
+
+.departments .wrapper .departments-content .department p {
+    font-family: "Helvetica-light", sans-serif;
+    font-size: 12px;
+    line-height: 133.5%;
+}
+
+
+/************************PAGE 3: OUR DOCTORS ************************/
+
+
+/******************PAGE 3:OUR DOCTORS************************/
+
+.about .wrapper .our-doctors {
+    display: flex;
+    margin-top: 55px;
+}
+
+.about .wrapper .our-doctors .our-doctors-content {
+    padding-left: 55px;
+    padding-top: 65px;
+    padding-right: 30px;
+}
+
+.about .wrapper .our-doctors .our-doctors-content h2 {
+    font-family: "Manrope-extrabold", sans-serif;
+    font-size: 30px;
+    line-height: 64px;
+}
+
+.about .wrapper .our-doctors .our-doctors-content p {
+    font-family: "Manrope-regular", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #18191F;
+    margin-top: -25px;
+}
+
+
+/******************PAGE 3:SPECIALISTS************************/
+
+.scrolling {
+    display: flex;
+    position: absolute;
+    right: 128px;
+    bottom: -25px;
+}
+
+.blog-scrolling {
+    display: flex;
+}
+
+.scrolling .arrow,
+.blog-scrolling .arrow {
+    width: 46px;
+    height: 46px;
+    background-color: rgba(246, 246, 246, 1);
+    margin-right: 8px;
+    position: relative;
+    cursor: pointer;
+}
+
+.scrolling .arrow a svg,
+.blog-scrolling .arrow a svg {
+    fill: rgba(0, 150, 255, 1);
+}
+
+.scrolling .arrow a svg:hover,
+.blog-scrolling .arrow a svg:hover {
+    fill: rgba(255, 255, 255, 1);
+}
+
+.scrolling .arrow:hover,
+.blog-scrolling .arrow:hover,
+.scrolling .arrow:active,
+.blog-scrolling .arrow:active {
+    background-color: rgba(0, 150, 255, 1);
+}
+
+.scrolling .arrow a,
+.blog-scrolling .arrow a {
+    font-family: "Roboto-medium", sans-serif;
+    font-size: 20px;
+    line-height: 23px;
+    color: #BBBBBB;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 25%;
+}
+
+.scrolling .arrow a svg,
+.blog-scrolling .arrow a svg {
+    width: 12px;
+}
+
+.scrolling .arrow:hover a,
+.blog-scrolling .arrow:hover a {
+    color: rgba(255, 255, 255, 1);
+}
+
+
+/************************PAGE 4: OUR BLOG************************/
+
+.about .blog-main {
+    margin-bottom: 78px;
+}
+
+.about .blog-main .wrapper {
+    display: flex;
+}
+
+.about .blog-main .wrapper .blog-main-photo {
+    padding-top: 47px;
+}
+
+.about .blog-main .wrapper .blog-main-content {
+    padding-left: 26px;
+    padding-top: 22px;
+}
+
+.blog-main-content .blog-main-content-heading h3 {
+    font-family: "Manrope-bold", sans-serif;
+    font-size: 26px;
+    line-height: 26px;
+    margin-bottom: 14px;
+}
+
+.blog-main-content .chat-info,
+.blog .wrapper .wr-blog-content-chat .chat-info {
+    display: flex;
+    font-family: "Roboto-regular", sans-serif;
+    font-size: 12px;
+    line-height: 22px;
+    color: rgba(153, 153, 153, 1);
+}
+
+.blog-main-content .chat-info .client-name,
+.blog .wrapper .wr-blog-content-chat .chat-info .client-name {
+    color: rgba(34, 150, 249, 1);
+}
+
+.blog-main-content .chat-info .client-name:hover,
+.blog .wrapper .wr-blog-content-chat .chat-info .client-name:hover {
+    color: #000000;
+}
+
+.blog-main-content .chat-info .client-name,
+.blog .wrapper .wr-blog-content-chat .chat-info .client-name {
+    padding-right: 38px;
+}
+
+.blog-main-content .chat-info time,
+.blog .wrapper .wr-blog-content-chat .chat-info time,
+.blog-main-content .chat-info .chat span,
+.blog .wrapper .wr-blog-content-chat .chat-info span {
+    padding-right: 21px;
+}
+
+.about .blog-main .wrapper .blog-main-content-definition p,
+.blog .wrapper .wr-blog-content-chat .chat-content p {
+    font-family: "Manrope-regular", sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    color: #666666;
+    margin-bottom: 22px;
+}
+
+.blog .wrapper .wr-blog-content-chat .chat-content h3 {
+    font-family: "Manrope-bold", sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: -4px;
+}
+
+.blog .wrapper .wr-blog-content-chat .chat-content p {
+    padding-right: 10px;
+}
+
+.about .blog-main .wrapper .blog-main-content-definition a {
+    font-family: "Manrope-bold", sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(34, 150, 249, 1);
+}
+
+.about .blog-main .wrapper .blog-main-content-definition a:hover {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.blog .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+
+.blog {
+    margin-bottom: 71px;
+}
+
+.blog-scrolling {
+    position: absolute;
+    bottom: -40px;
+    right: 128px;
+}
+
+.blog .wrapper .wr-blog-content-chat {
+    max-width: 30.5%;
+    margin-bottom: 42px;
+}
+
+.blog .wrapper .wr-blog-content-chat .chat-info {
+    margin-bottom: -10px;
+}
+
+
+/************************PAGE 5: OUR CONTACT ************************/
+
+.contact-info .wrapper {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.contact-info .wrapper .contacts h3 {
+    font-family: "Roboto-medium", sans-serif;
+    font-size: 24px;
+    line-height: 35px;
+    margin-top: 5px;
+}
+
+.contact-info .wrapper .contacts p {
+    font-family: "Roboto-regular", sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: -10px;
+}
+
+.about .contact-info {
+    padding-top: 66px;
+    padding-left: 35px;
+    padding-right: 30px;
+}
+
+
+/********************************* MAP *****************************/
+
+.map {
+    margin-top: 70px;
+}
+
+
+/****************************** GET IN TOUCH *********************/
+
+.feedback {
+    margin-top: 56px;
+    margin-bottom: 141px;
+}
+
+.feedback .wrapper h2 {
+    font-family: "Manrope-bold", sans-serif;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+}
+
+.feedback .wrapper form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-right: 12.5%;
+    padding-top: 24px;
+    padding-left: 15.5%;
+}
+
+.feedback .wrapper form p {
+    font-family: "Roboto-medium", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #666666;
+    text-align: left;
+}
+
+.feedback .wrapper form .name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feedback .wrapper form .name input[type=text],
+.feedback .wrapper form .name input[type=email] {
+    width: 400px;
+    height: 45px;
+    background: #F6F6F6;
+    border-radius: 5px;
+    border: none;
+}
+
+.feedback .wrapper form .name input[type=text]:hover,
+.feedback .wrapper form .name input[type=email]:hover {
+    border: solid 1px rgba(34, 150, 249, 1);
+}
+
+.feedback .wrapper form .subject {
+    padding-top: 17px;
+}
+
+.feedback .wrapper form .subject input[type=text] {
+    width: 835px;
+    height: 45px;
+    background: #F6F6F6;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 18px;
+}
+
+.feedback .wrapper form .subject input[type=text]:hover {
+    border: solid 1px rgba(34, 150, 249, 1);
+}
+
+.feedback .wrapper form .subject textarea {
+    width: 835px;
+    height: 145px;
+    background: #F6F6F6;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 25px;
+}
+
+.feedback .wrapper form .subject textarea:hover {
+    border: solid 1px rgba(34, 150, 249, 1);
+}
+
+.feedback .wrapper form .subject input[type=submit] {
+    background: #0096FF;
+    border-radius: 5px;
+    border: none;
+    font-family: "Roboto-medium", sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    width: 173px;
+    height: 48px;
+}
+
+.feedback .wrapper form .subject input[type=submit]:hover {
+    transform: scale(1.1);
+    color: #000;
+}

@@ -1,0 +1,1159 @@
+/**************************** 1025 - 1225 *******************************/
+
+@media (min-width: 1025px) and (max-width: 1225px) {
+    .wr-preview header .wrapper ul.header-icons {
+        min-width: 18%;
+    }
+    .wr-welcome .wrapper {
+        padding-left: 40px;
+        padding-right: 10px;
+    }
+    .wr-welcome .wrapper .wrapper-welcome p:first-child {
+        margin-top: 100px;
+    }
+    .wr-welcome .wrapper .wrapper-welcome-photo .welcome-photo {
+        padding-top: 15px;
+        width: 555px;
+    }
+    .wr-welcome .wrapper .wrapper-welcome-photo {
+        width: 50%;
+    }
+    .wr-welcome .wrapper {
+        margin-bottom: 75px;
+    }
+    .testing .wrapper {
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+    }
+    .advises .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .wr-services .wrapper {
+        padding-left: 40px;
+        padding-right: 10px;
+    }
+    .wr-specialists .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .wr-clients-reviews .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .wr-specialists .wrapper .wr-specialists-info {
+        justify-content: space-evenly;
+        margin-bottom: 50px;
+    }
+    .swiper-container .swiper-wrapper {
+        max-width: 1160px;
+    }
+    .wr-blog .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .wr-blog .wrapper .wr-blog-content {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .wr-blog .wrapper .wr-blog-content .wr-blog-content-chat {
+        max-width: 100%;
+    }
+    .wr-blog-content .wr-blog-content-chat .chat-info {
+        justify-content: center;
+    }
+}
+
+
+/******************************** 990 - 1025 ********************************/
+
+@media (min-width: 990px) and (max-width: 1025px) {
+    header .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .wr-preview header .wrapper ul.header-icons {
+        min-width: 18%;
+    }
+    .wr-welcome .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .wr-welcome .wrapper .wrapper-welcome p:first-child {
+        margin-top: 100px;
+    }
+    .wr-welcome .wrapper .wrapper-welcome h1 {
+        font-size: 36px;
+    }
+    .wr-welcome .wrapper .wrapper-welcome-photo {
+        width: 50%;
+    }
+    .wr-welcome .wrapper .wrapper-welcome-photo .welcome-photo {
+        padding-top: 0px;
+        width: 580px;
+    }
+    .wr-welcome .wrapper {
+        margin-bottom: 75px;
+    }
+    .testing .wrapper {
+        padding-left: 0.5%;
+        padding-right: 0.5%;
+    }
+    .advises .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .advises .wrapper .advises-block-advises {
+        padding-top: 35px;
+        margin-left: -85px;
+    }
+    .wr-specialists .wrapper {
+        padding-left: 180px;
+        padding-right: 180px;
+    }
+    .wr-clients-reviews .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .wr-blog .wrapper {
+        padding-left: 220px;
+        padding-right: 10px;
+    }
+    .wr-blog .wrapper .wr-blog-content {
+        flex-direction: column;
+    }
+    .wr-blog .wrapper .wr-blog-content .wr-blog-content-chat {
+        max-width: 100%;
+    }
+    .wr-blog-content .wr-blog-content-chat .chat-info {
+        justify-content: center;
+    }
+    footer .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+
+/******************************** 828 - 990 ********************************/
+
+@media (min-width: 828px) and (max-width: 990px) {
+    header .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .wr-preview header .wrapper ul.header-icons {
+        min-width: 21%;
+    }
+    .wr-welcome .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .wr-welcome .wrapper .wrapper-welcome p:first-child {
+        color: #000;
+        margin-top: 100px;
+    }
+    .wr-welcome .wrapper .wrapper-welcome h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .wr-welcome .wrapper .wrapper-welcome p:last-of-type {
+        font-size: 15px;
+        line-height: 26px;
+    }
+    .wr-welcome .wrapper .wrapper-welcome button {
+        width: 212px;
+    }
+    .wr-welcome .wrapper .wrapper-welcome-photo {
+        width: 50%;
+    }
+    .wr-welcome .wrapper .wrapper-welcome-photo .welcome-photo {
+        padding-top: 52px;
+        width: 484px;
+    }
+    .wr-welcome .wrapper {
+        margin-bottom: 100px;
+    }
+    .testing {
+        margin-bottom: 0px;
+    }
+    .testing .wrapper {
+        padding-left: 0.5%;
+        padding-right: 0.5%
+    }
+    .testing .wrapper .test {
+        width: 23%;
+    }
+    .testing .wrapper .test .test-info h4 {
+        font-size: 13px;
+    }
+    .advises .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .advises .wrapper .advises-block-advises {
+        padding-top: 0px;
+        margin-left: 0px;
+    }
+    .wr-services .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .wr-clients-reviews .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .wr-blog .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .wr-blog .wrapper .wr-blog-content {
+        flex-direction: column;
+    }
+    .wr-blog .wrapper .wr-blog-content .wr-blog-content-chat {
+        max-width: 100%;
+    }
+    .wr-blog-content .wr-blog-content-chat .chat-info {
+        justify-content: center;
+    }
+    footer .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    footer input[type=email] {
+        width: 90px;
+    }
+}
+
+
+/******************************** 750 - 828 ********************************/
+
+@media (min-width: 750px) and (max-width: 828px) {
+    .wr-welcome .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .wr-welcome .wrapper .wrapper-welcome p:first-child {
+        color: #000;
+        margin-top: 45px;
+    }
+    .wr-welcome .wrapper .wrapper-welcome h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .wr-welcome .wrapper .wrapper-welcome p:last-of-type {
+        font-size: 17px;
+        line-height: 28px;
+    }
+    .wr-welcome .wrapper .wrapper-welcome button {
+        width: 217px;
+        height: 62px;
+        border: solid 1px #000;
+    }
+    .wr-welcome .wrapper .wrapper-welcome-photo {
+        width: 56%;
+    }
+    .wr-welcome .wrapper .wrapper-welcome {
+        min-width: 44%;
+    }
+    .wr-welcome .wrapper .wrapper-welcome-photo .welcome-photo {
+        padding-top: 50px;
+        width: 490px;
+    }
+    .wr-call {
+        margin-bottom: 50px;
+    }
+    .wr-call .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .wr-welcome .wrapper {
+        margin-bottom: 95px;
+    }
+    .testing .wrapper {
+        padding-left: 0.5%;
+        padding-right: 0.5%;
+    }
+    .testing .wrapper .test {
+        width: 24%;
+    }
+    .testing .wrapper .test .test-icon {
+        height: 85px;
+        width: 85px;
+        right: 5px;
+        top: 10px;
+    }
+    .testing .wrapper .test .test-icon-2 {
+        right: 32px;
+        top: 36px;
+    }
+    header .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    header .wrapper nav {
+        width: 30%;
+    }
+    .header-icons {
+        min-width: 23%;
+    }
+    .testing {
+        margin-bottom: 0px;
+    }
+    .advises .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .advises .wrapper .advises-block-advises {
+        padding-top: 0px;
+        margin-left: 0px;
+    }
+    .advises .wrapper .advises-block-photo img {
+        margin-bottom: -70px;
+    }
+    .wr-services .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .wr-services .wr-services-heading h2 {
+        font-size: 35px;
+        line-height: 55px;
+    }
+    .wr-services .wr-services-heading {
+        margin-bottom: 0px;
+    }
+    .wr-specialists .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+    .wr-specialists .wrapper .wr-specialists-info {
+        justify-content: space-evenly;
+    }
+    .wr-blog .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .wr-blog .wrapper .wr-blog-content {
+        flex-direction: column;
+    }
+    .wr-blog .wrapper .wr-blog-content .wr-blog-content-chat {
+        max-width: 100%
+    }
+    .wr-blog-content .wr-blog-content-chat .chat-info {
+        justify-content: center;
+    }
+    footer .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    footer .wrapper a h3 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    footer .wrapper h3 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    footer input[type=email] {
+        width: 90px;
+    }
+}
+
+
+/******************************** 640 - 750 ********************************/
+
+@media (min-width: 640px) and (max-width: 750px) {
+    header .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .wr-preview header .wrapper ul.header-icons {
+        min-width: 25%;
+    }
+    header .wrapper nav {
+        width: 32%;
+    }
+    .wr-welcome .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .wr-welcome .wrapper .wrapper-welcome p:first-child {
+        color: #000;
+        margin-top: 90px;
+    }
+    .wr-welcome .wrapper .wrapper-welcome {
+        min-width: 44%;
+    }
+    .wr-welcome .wrapper .wrapper-welcome h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .wr-welcome .wrapper .wrapper-welcome-photo {
+        width: 100%;
+    }
+    .wr-welcome .wrapper .wrapper-welcome button {
+        width: 240px;
+        border: solid 1px #000;
+    }
+    .wr-welcome .wrapper .wrapper-welcome-photo .welcome-photo {
+        padding-top: 0px;
+        max-width: 100%;
+        margin-bottom: -95px;
+    }
+    .wr-welcome {
+        margin-bottom: 80px;
+    }
+    .wr-call .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .testing .wrapper {
+        padding-left: 0.5%;
+        padding-right: 0.5%;
+    }
+    .testing .wrapper .test .test-icon {
+        width: 89px;
+        right: 3px;
+        top: 5px;
+    }
+    .testing .wrapper .test .test-icon-2 {
+        right: 34px;
+        top: 33px;
+    }
+    .testing .wrapper .test .test-info h4 {
+        font-size: 12px;
+        line-height: 13px;
+        margin-bottom: 0px;
+    }
+    .testing .wrapper .test .test-info p {
+        font-size: 11px;
+        line-height: 12px;
+    }
+    .testing .wrapper .test {
+        width: 23%;
+        height: 170px;
+    }
+    .advises .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .advises .wrapper .advises-block-advises {
+        display: flex;
+        flex-direction: column;
+        padding-top: 0px;
+        margin-left: 0px;
+        margin-top: -65px;
+    }
+    .advises .wrapper .advises-block-advises h2 {
+        margin-top: 60px;
+    }
+    .testing {
+        margin-bottom: 0px;
+    }
+    .wr-services .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .wr-specialists .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .wr-specialists .wrapper .wr-specialists-info {
+        justify-content: space-evenly;
+        padding-top: 0px;
+        margin-bottom: 50px;
+    }
+    .wr-blog .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .wr-blog .wrapper .wr-blog-content {
+        flex-direction: column;
+    }
+    .wr-blog .wrapper .wr-blog-content .wr-blog-content-chat {
+        max-width: 100%;
+    }
+    .wr-blog-content .wr-blog-content-chat .chat-info {
+        justify-content: center;
+    }
+    footer .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    footer .wrapper a h3 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    footer .wrapper h3 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    footer .wrapper .newsletter p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    footer .wrapper .about p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    footer input[type=email] {
+        padding: 2px;
+        width: 70px;
+    }
+    footer input[type=submit] {
+        width: 55px;
+    }
+}
+
+
+/******************************** 450 - 640 ********************************/
+
+@media (min-width: 450px) and (max-width: 640px) {
+    header .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .wr-welcome .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .wr-welcome .wrapper {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .wr-welcome .wrapper .wrapper-welcome p:first-child {
+        font-size: 27px;
+        color: #FFF;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .wr-welcome .wrapper .wrapper-welcome p br {
+        display: none;
+    }
+    .wr-welcome .wrapper .wrapper-welcome h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .wr-welcome .wrapper .wrapper-welcome p:last-of-type {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .wr-welcome .wrapper .wrapper-welcome button {
+        border: solid 2px #FFF;
+        width: 230px;
+        height: 55px;
+    }
+    .wr-welcome .wrapper .wrapper-welcome-photo .welcome-photo {
+        padding-top: 0px;
+        max-width: 375px;
+    }
+    .wr-welcome .wrapper .wrapper-welcome-photo {
+        max-width: 100%;
+    }
+    .wr-call {
+        margin-bottom: 0px;
+    }
+    .wr-call .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+        min-height: 100px;
+    }
+    .wr-call .wrapper h2 {
+        font-size: 22px;
+        line-height: 28px;
+        padding-top: 35px;
+    }
+    .testing {
+        margin-bottom: 0px;
+        margin-top: 30px;
+    }
+    .testing .wrapper {
+        flex-direction: column;
+        padding-right: 0.5%;
+        padding-left: 13.5%;
+    }
+    .testing .wrapper .test {
+        width: 85%;
+        height: 120px;
+        margin-bottom: 15px;
+    }
+    .testing .wrapper .test .test-info {
+        right: 120px;
+    }
+    .advises .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .advises .wrapper .advises-block-photo img {
+        width: 350px;
+    }
+    .advises .wrapper .advises-block-advises {
+        padding-top: 0px;
+        margin-left: 0px;
+    }
+    .advises .wrapper .advises-block-advises h2 {
+        font-size: 18px;
+        line-height: 0px;
+        margin-bottom: 5px;
+    }
+    .advises .wrapper .advises-block-advises .advise h3 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .advises .wrapper .advises-block-advises .advise p {
+        font-size: 10px;
+        line-height: 15px;
+        margin-top: 30px;
+    }
+    .wr-services {
+        margin-bottom: 0px;
+    }
+    .wr-services .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .wr-services .wr-services-heading h2 {
+        font-size: 20px;
+        line-height: 34px;
+    }
+    .wr-services .wr-services-heading {
+        min-height: 0;
+        margin-bottom: 5px;
+    }
+    .wr-services .wr-services-services h3 {
+        font-size: 15px;
+        text-align: center;
+        line-height: 15px;
+    }
+    .wr-services .wr-services-services .service-info {
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 0px;
+    }
+    .wr-services .wr-services-services {
+        grid-template-columns: 30% 4% 30% 4% 30%;
+        grid-template-rows: 50% 40%;
+        min-height: 0px;
+        text-align: center;
+    }
+    .wr-specialists .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .wr-specialists .wrapper .wr-specialists-heading a h2 {
+        font-size: 20px;
+        line-height: 34px;
+    }
+    .wr-specialists .wrapper .wr-specialists-info {
+        flex-direction: column;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+    .wr-specialists-info .wr-specialists-specialist .specialist-name p:first-child {
+        font-size: 16px;
+        line-height: 14px;
+    }
+    .wr-specialists-info .wr-specialists-specialist .specialist-name p:last-child {
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: -15px;
+    }
+    .specialists-contacts {
+        padding: 0px 175px 0px 175px;
+    }
+    .specialists-contacts .contact-icon .facebook,
+    .specialists-contacts .contact-icon .twitter,
+    .specialists-contacts .contact-icon .instagram {
+        height: 12px;
+    }
+    .wr-clients-reviews .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .wr-blog .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .wr-blog {
+        margin-top: -50px;
+        margin-bottom: 0px;
+    }
+    .wr-blog .wrapper .wr-blog-heading a h2 {
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .wr-blog .wrapper .wr-blog-heading p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .wr-blog .wrapper .wr-blog-heading p br {
+        display: none;
+    }
+    .wr-blog .wrapper .wr-blog-content .wr-blog-content-chat {
+        max-width: 97%;
+    }
+    .wr-blog .wrapper .wr-blog-content {
+        flex-direction: column;
+        padding-top: 0px;
+    }
+    footer .wrapper {
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 30px;
+    }
+    footer .wrapper .about {
+        max-width: 100%;
+        padding-top: 15px;
+        padding-left: 25px;
+    }
+    footer .wrapper .contacts {
+        max-width: 100%;
+        padding-top: 0px;
+        padding-left: 25px;
+    }
+    footer .wrapper .connection {
+        max-width: 100%;
+        padding-top: 0px;
+        padding-left: 25px;
+    }
+    footer .wrapper .newsletter {
+        max-width: 100%;
+        padding-left: 25px;
+    }
+}
+
+
+/******************************** 320 - 450 ********************************/
+
+@media (min-width: 320px) and (max-width: 450px) {
+    header .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .wr-welcome .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .wr-welcome .wrapper {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .wr-welcome .wrapper .wrapper-welcome p:first-child {
+        font-size: 27px;
+        color: #FFF;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .wr-welcome .wrapper .wrapper-welcome p br {
+        display: none;
+    }
+    .wr-welcome .wrapper .wrapper-welcome h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .wr-welcome .wrapper .wrapper-welcome p:last-of-type {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .wr-welcome .wrapper .wrapper-welcome button {
+        border: solid 2px #FFF;
+        width: 230px;
+        height: 55px;
+    }
+    .wr-welcome .wrapper .wrapper-welcome-photo .welcome-photo {
+        padding-top: 0px;
+        max-width: 375px;
+    }
+    .wr-welcome .wrapper .wrapper-welcome-photo {
+        max-width: 100%;
+    }
+    .wr-call {
+        margin-bottom: 0px;
+    }
+    .wr-call .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+        min-height: 100px;
+    }
+    .wr-call .wrapper h2 {
+        font-size: 22px;
+        line-height: 28px;
+        padding-top: 35px;
+    }
+    .testing {
+        margin-bottom: 0px;
+        margin-top: 30px;
+    }
+    .testing .wrapper {
+        flex-direction: column;
+        padding-right: 0.5%;
+        padding-left: 13.5%;
+    }
+    .testing .wrapper .test {
+        width: 85%;
+        height: 120px;
+        margin-bottom: 15px;
+    }
+    .testing .wrapper .test .test-info {
+        right: 120px;
+    }
+    .advises .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .advises .wrapper .advises-block-photo img {
+        width: 350px;
+    }
+    .advises .wrapper .advises-block-advises {
+        padding-top: 0px;
+        margin-left: 0px;
+    }
+    .advises .wrapper .advises-block-advises h2 {
+        font-size: 18px;
+        line-height: 0px;
+        margin-bottom: 5px;
+    }
+    .advises .wrapper .advises-block-advises .advise h3 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .advises .wrapper .advises-block-advises .advise p {
+        font-size: 10px;
+        line-height: 15px;
+        margin-top: 30px;
+    }
+    .wr-services {
+        margin-bottom: 0px;
+    }
+    .wr-services .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .wr-services .wr-services-heading h2 {
+        font-size: 20px;
+        line-height: 34px;
+    }
+    .wr-services .wr-services-heading {
+        min-height: 0;
+        margin-bottom: 5px;
+    }
+    .wr-services .wr-services-services h3 {
+        font-size: 15px;
+        text-align: center;
+        line-height: 15px;
+    }
+    .wr-services .wr-services-services .service-info {
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 0px;
+    }
+    .wr-services .wr-services-services {
+        grid-template-columns: 30% 4% 30% 4% 30%;
+        grid-template-rows: 50% 40%;
+        min-height: 0px;
+        text-align: center;
+    }
+    .wr-specialists .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .wr-specialists .wrapper .wr-specialists-heading a h2 {
+        font-size: 20px;
+        line-height: 34px;
+    }
+    .wr-specialists .wrapper .wr-specialists-info {
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+    .wr-specialists-info .wr-specialists-specialist .specialist-name p:first-child {
+        font-size: 16px;
+        line-height: 14px;
+    }
+    .wr-specialists-info .wr-specialists-specialist .specialist-name p:last-child {
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: -15px;
+    }
+    .specialists-contacts {
+        padding: 0px 120px 0px 120px;
+    }
+    .specialists-contacts .contact-icon .facebook,
+    .specialists-contacts .contact-icon .twitter,
+    .specialists-contacts .contact-icon .instagram {
+        height: 12px;
+    }
+    .wr-clients-reviews .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .wr-blog .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .wr-blog {
+        margin-top: -50px;
+        margin-bottom: 0px;
+    }
+    .wr-blog .wrapper .wr-blog-heading a h2 {
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .wr-blog .wrapper .wr-blog-heading p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .wr-blog .wrapper .wr-blog-heading p br {
+        display: none;
+    }
+    .wr-blog .wrapper .wr-blog-content .wr-blog-content-chat {
+        max-width: 97%;
+    }
+    .wr-blog .wrapper .wr-blog-content {
+        flex-direction: column;
+        padding-top: 0px;
+    }
+    footer .wrapper {
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 30px;
+    }
+    footer .wrapper .about {
+        max-width: 100%;
+        padding-top: 15px;
+        padding-left: 25px;
+    }
+    footer .wrapper .contacts {
+        max-width: 100%;
+        padding-top: 0px;
+        padding-left: 25px;
+    }
+    footer .wrapper .connection {
+        max-width: 100%;
+        padding-top: 0px;
+        padding-left: 25px;
+    }
+    footer .wrapper .newsletter {
+        max-width: 100%;
+        padding-left: 25px;
+    }
+}
+
+
+/******************************** 0 - 320 ********************************/
+
+@media (max-width: 320px) {
+    .wr-welcome .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .wr-welcome .wrapper {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .wr-welcome .wrapper .wrapper-welcome p:first-child {
+        font-size: 27px;
+        color: #000;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .wr-welcome .wrapper .wrapper-welcome h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .wr-welcome .wrapper .wrapper-welcome p:last-of-type {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .wr-welcome .wrapper .wrapper-welcome button {
+        border: solid 2px #FFF;
+        width: 230px;
+        height: 55px;
+    }
+    .wr-welcome .wrapper .wrapper-welcome-photo .welcome-photo {
+        padding-top: 0px;
+        max-width: 350px;
+    }
+    .wr-welcome .wrapper .wrapper-welcome-photo {
+        max-width: 100%;
+    }
+    .wr-call {
+        margin-bottom: 0px;
+    }
+    .wr-call .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+        min-height: 100px;
+    }
+    .wr-call .wrapper h2 {
+        font-size: 24px;
+        line-height: 28px;
+        padding-top: 25px;
+    }
+    .testing {
+        margin-bottom: 0px;
+        margin-top: 30px;
+    }
+    .testing .wrapper {
+        flex-direction: column;
+    }
+    .testing .wrapper .test {
+        width: 100%;
+        height: 120px;
+        margin-bottom: 15px;
+    }
+    .testing .wrapper .test .test-info {
+        right: 120px;
+    }
+    .advises .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .advises .wrapper .advises-block-photo img {
+        width: 350px;
+    }
+    .advises .wrapper .advises-block-advises {
+        padding-top: 0px;
+        margin-left: 0px;
+    }
+    .advises .wrapper .advises-block-advises h2 {
+        font-size: 18px;
+        line-height: 0px;
+        margin-bottom: 5px;
+    }
+    .advises .wrapper .advises-block-advises .advise h3 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .advises .wrapper .advises-block-advises .advise p {
+        font-size: 10px;
+        line-height: 15px;
+        margin-top: 30px;
+    }
+    .wr-services {
+        margin-bottom: 0px;
+    }
+    .wr-services .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .wr-services .wr-services-heading h2 {
+        font-size: 20px;
+        line-height: 34px;
+    }
+    .wr-services .wr-services-heading {
+        min-height: 0;
+        margin-bottom: 5px;
+    }
+    .wr-services .wr-services-services h3 {
+        font-size: 15px;
+        text-align: center;
+        line-height: 15px;
+    }
+    .wr-services .wr-services-services .service-info {
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 0px;
+    }
+    .wr-services .wr-services-services {
+        grid-template-columns: 30% 4% 30% 4% 30%;
+        grid-template-rows: 50% 40%;
+        min-height: 0px;
+        text-align: center;
+    }
+    .wr-specialists .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .wr-specialists .wrapper .wr-specialists-heading a h2 {
+        font-size: 20px;
+        line-height: 34px;
+    }
+    .wr-specialists .wrapper .wr-specialists-info {
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+    .wr-specialists-info .wr-specialists-specialist .specialist-name p:first-child {
+        font-size: 16px;
+        line-height: 14px;
+    }
+    .wr-specialists-info .wr-specialists-specialist .specialist-name p:last-child {
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: -15px;
+    }
+    .specialists-contacts {
+        padding: 0px 100px 0px 100px;
+    }
+    .specialists-contacts .contact-icon .facebook,
+    .specialists-contacts .contact-icon .twitter,
+    .specialists-contacts .contact-icon .instagram {
+        height: 12px;
+    }
+    .wr-clients-reviews .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .wr-blog .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .wr-blog {
+        margin-top: -50px;
+        margin-bottom: 0px;
+    }
+    .wr-blog .wrapper .wr-blog-heading a h2 {
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .wr-blog .wrapper .wr-blog-heading p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .wr-blog .wrapper .wr-blog-content .wr-blog-content-chat {
+        max-width: 97%;
+    }
+    .wr-blog .wrapper .wr-blog-content {
+        flex-direction: column;
+        padding-top: 0px;
+    }
+    footer .wrapper {
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    footer .wrapper .about {
+        max-width: 100%;
+        padding-top: 15px;
+        padding-left: 25px;
+    }
+    footer .wrapper .contacts {
+        max-width: 100%;
+        padding-top: 0px;
+        padding-left: 25px;
+    }
+    footer .wrapper .connection {
+        max-width: 100%;
+        padding-top: 0px;
+        padding-left: 25px;
+    }
+    footer .wrapper .newsletter {
+        max-width: 100%;
+        padding-left: 25px;
+    }
+}
