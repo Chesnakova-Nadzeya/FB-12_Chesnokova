@@ -109,7 +109,16 @@
 
 /*******************МЕДИАЗАПРОСЫ********************/
 
-@media (max-width:360px) {
+@media (max-width:320px) {
+    .swiper-container-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        left: -420px;
+        bottom: 0px;
+    }
+}
+
+@media (min-width:320px) and (max-width: 360px) {
     .wr-clients-reviews .wrapper .wr-clients-reviews-heading h2 {
         font-size: 34px;
         line-height: 32px;
@@ -118,7 +127,7 @@
         padding-top: 15px;
     }
     .wr-clients-reviews .wrapper .wr-clients-reviews-heading p {
-        font-size: 14px;
+        font-size: 13px;
         line-height: 20px;
     }
     .swiper-container .swiper-wrapper {
@@ -127,7 +136,8 @@
     .swiper-container-horizontal>.swiper-pagination-bullets,
     .swiper-pagination-custom,
     .swiper-pagination-fraction {
-        left: -367px;
+        left: -375px;
+        bottom: 11px;
     }
     .wr-clients-reviews .wrapper .swiper-container .swiper-slide {
         padding-left: 80px;
@@ -147,5 +157,31 @@
     }
     .wr-clients-reviews {
         margin-top: -50px;
+    }
+}
+
+@media (min-width:360px) and (max-width: 450px) {
+    .swiper-container-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        left: -365px;
+        bottom: 12;
+    }
+}
+
+@media (min-width:450px) and (max-width: 640px) {
+    .swiper-container-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        bottom: 12;
+        left: -395px;
+    }
+}
+
+@media (min-width: 828px) and (max-width: 990px) {
+    .swiper-container-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        left: -175px;
     }
 }

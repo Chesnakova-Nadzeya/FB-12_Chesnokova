@@ -1,6 +1,10 @@
 /**************************** 1025 - 1225 *******************************/
 
 @media (min-width: 1025px) and (max-width: 1225px) {
+    header .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
     .wr-preview header .wrapper ul.header-icons {
         min-width: 18%;
     }
@@ -45,6 +49,9 @@
         justify-content: space-evenly;
         margin-bottom: 50px;
     }
+    .specialists-contacts {
+        padding: 0px 97px 10px 93px;
+    }
     .swiper-container .swiper-wrapper {
         max-width: 1160px;
     }
@@ -61,6 +68,13 @@
     }
     .wr-blog-content .wr-blog-content-chat .chat-info {
         justify-content: center;
+    }
+    footer .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    footer .wrapper .newsletter {
+        max-width: 20%;
     }
 }
 
@@ -222,6 +236,9 @@
         padding-left: 10px;
         padding-right: 10px;
     }
+    footer .wrapper .newsletter {
+        max-width: 19%;
+    }
     footer input[type=email] {
         width: 90px;
     }
@@ -359,6 +376,9 @@
         font-size: 18px;
         line-height: 22px;
     }
+    footer .wrapper .newsletter {
+        max-width: 23%;
+    }
     footer input[type=email] {
         width: 90px;
     }
@@ -495,6 +515,9 @@
         font-size: 16px;
         line-height: 18px;
     }
+    footer .wrapper .newsletter {
+        max-width: 21%;
+    }
     footer .wrapper .newsletter p {
         font-size: 12px;
         line-height: 16px;
@@ -505,7 +528,7 @@
     }
     footer input[type=email] {
         padding: 2px;
-        width: 70px;
+        width: 90px;
     }
     footer input[type=submit] {
         width: 55px;
@@ -669,7 +692,8 @@
         margin-top: -15px;
     }
     .specialists-contacts {
-        padding: 0px 175px 0px 175px;
+        padding: 0px 0px 10px 0px;
+        margin-left: 35%;
     }
     .specialists-contacts .contact-icon .facebook,
     .specialists-contacts .contact-icon .twitter,
@@ -759,7 +783,7 @@
         display: none;
     }
     .wr-welcome .wrapper .wrapper-welcome h1 {
-        font-size: 32px;
+        font-size: 36px;
         line-height: 40px;
     }
     .wr-welcome .wrapper .wrapper-welcome p:last-of-type {
@@ -787,7 +811,7 @@
         min-height: 100px;
     }
     .wr-call .wrapper h2 {
-        font-size: 22px;
+        font-size: 17px;
         line-height: 28px;
         padding-top: 35px;
     }
@@ -888,7 +912,9 @@
         margin-top: -15px;
     }
     .specialists-contacts {
-        padding: 0px 120px 0px 120px;
+        padding: 0px 0px 10px 0px;
+        text-align: center;
+        margin-left: 35%;
     }
     .specialists-contacts .contact-icon .facebook,
     .specialists-contacts .contact-icon .twitter,
@@ -1098,7 +1124,7 @@
         margin-top: -15px;
     }
     .specialists-contacts {
-        padding: 0px 100px 0px 100px;
+        padding: 0px 0px 10px 0px;
     }
     .specialists-contacts .contact-icon .facebook,
     .specialists-contacts .contact-icon .twitter,
@@ -1155,5 +1181,1304 @@
     footer .wrapper .newsletter {
         max-width: 100%;
         padding-left: 25px;
+    }
+}
+
+
+/****************************** ABOUT US *********************************/
+
+
+/******************************** 0 - 360 ********************************/
+
+@media (max-width: 360px) {
+    .page-title .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .about .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .about .wrapper .about-content {
+        flex-direction: column;
+    }
+    .experience .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .experience .wrapper .experience-content-photo {
+        position: static;
+    }
+    .experience .wrapper .experience-content {
+        width: 100%;
+    }
+    .about .wrapper .about-content .about-content-photo {
+        padding-top: 0px;
+    }
+    .about .wrapper .about-content .about-content-photo picture img {
+        width: 300px;
+    }
+    .about .wrapper .about-content h2 {
+        font-size: 32px;
+        line-height: 20px;
+        text-align: center;
+        padding-top: 0px;
+    }
+    .about .wrapper .about-content h2 span {
+        font-size: 24px;
+        line-height: 44px;
+    }
+    .about-content-content {
+        margin-top: -55px;
+    }
+    .experience .wrapper .experience-content h2 {
+        font-size: 27px;
+        line-height: 34px;
+        padding-top: 0px;
+        margin-bottom: 0px;
+    }
+    .experience .wrapper .experience-content p {
+        text-align: justify;
+    }
+    .about .wrapper .about-content .about-content-content p {
+        text-align: justify;
+    }
+    .experience-content-photo img {
+        width: 290px;
+        margin-top: -45px;
+        margin-bottom: -90px;
+    }
+    .departments .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .departments .wrapper .departments-heading {
+        margin-bottom: 0px;
+    }
+    .departments .wrapper .departments-content {
+        flex-direction: column;
+    }
+    .departments .wrapper .departments-content .department {
+        width: 100%;
+    }
+    .departments .wrapper .departments-heading p {
+        font-size: 12px;
+        text-align: justify;
+    }
+    .departments .wrapper .departments-heading h2 {
+        font-size: 32px;
+    }
+}
+
+
+/*******ABOUT US************** 360 - 450 ********************************/
+
+@media (min-width: 360px) and (max-width: 450px) {
+    .page-title .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .about .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .about .wrapper .about-content {
+        flex-direction: column;
+    }
+    .experience .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .experience .wrapper .experience-content-photo {
+        position: static;
+    }
+    .experience .wrapper .experience-content {
+        width: 100%;
+    }
+    .about .wrapper .about-content .about-content-photo {
+        padding-top: 0px;
+    }
+    .about .wrapper .about-content .about-content-photo picture img {
+        width: 335px;
+    }
+    .about .wrapper .about-content h2 {
+        font-size: 32px;
+        line-height: 20px;
+        text-align: center;
+        padding-top: 0px;
+    }
+    .about .wrapper .about-content h2 span {
+        font-size: 24px;
+        line-height: 44px;
+    }
+    .about-content-content {
+        margin-top: -55px;
+    }
+    .experience .wrapper .experience-content h2 {
+        font-size: 27px;
+        line-height: 34px;
+        padding-top: 0px;
+        margin-bottom: 0px;
+    }
+    .experience .wrapper .experience-content p {
+        text-align: justify;
+    }
+    .about .wrapper .about-content .about-content-content p {
+        text-align: justify;
+    }
+    .experience-content-photo img {
+        width: 290px;
+        margin-top: -45px;
+        margin-bottom: -90px;
+    }
+    .departments .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .departments .wrapper .departments-heading {
+        margin-bottom: 0px;
+    }
+    .departments .wrapper .departments-content {
+        flex-direction: column;
+    }
+    .departments .wrapper .departments-content .department {
+        width: 100%;
+    }
+    .departments .wrapper .departments-heading p {
+        font-size: 12px;
+        text-align: justify;
+    }
+    .departments .wrapper .departments-heading h2 {
+        font-size: 32px;
+    }
+}
+
+
+/*****ABOUT US*************450 - 640 ********************************/
+
+@media (min-width: 450px) and (max-width: 640px) {
+    .page-title .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .about .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .about .wrapper .about-content {
+        flex-direction: column;
+    }
+    .experience .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .experience .wrapper .experience-content-photo {
+        position: static;
+    }
+    .experience .wrapper .experience-content {
+        width: 100%;
+    }
+    .about .wrapper .about-content .about-content-photo {
+        padding-top: 0px;
+    }
+    .about .wrapper .about-content .about-content-photo picture img {
+        width: 435px;
+    }
+    .about .wrapper .about-content h2 {
+        font-size: 32px;
+        line-height: 20px;
+        text-align: center;
+        padding-top: 0px;
+    }
+    .about .wrapper .about-content h2 span {
+        font-size: 24px;
+        line-height: 44px;
+    }
+    .about-content-content {
+        margin-top: -55px;
+    }
+    .experience .wrapper .experience-content h2 {
+        font-size: 27px;
+        line-height: 34px;
+        padding-top: 0px;
+        margin-bottom: 0px;
+    }
+    .experience .wrapper .experience-content p {
+        text-align: justify;
+    }
+    .about .wrapper .about-content .about-content-content p {
+        text-align: justify;
+    }
+    .experience-content-photo img {
+        width: 290px;
+        margin-top: -45px;
+        margin-bottom: -90px;
+    }
+    .departments .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .departments .wrapper .departments-heading {
+        margin-bottom: 0px;
+    }
+    .departments .wrapper .departments-content {
+        flex-direction: column;
+    }
+    .departments .wrapper .departments-content .department {
+        width: 100%;
+    }
+    .departments .wrapper .departments-heading p {
+        font-size: 13px;
+        text-align: justify;
+    }
+    .departments .wrapper .departments-heading h2 {
+        font-size: 32px;
+    }
+    .wr-specialists .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .wr-specialists .wrapper .wr-specialists-info .wr-specialists-specialist {
+        width: 100%;
+    }
+}
+
+
+/*****ABOUT US*************640 - 750 ********************************/
+
+@media (min-width: 640px) and (max-width: 750px) {
+    .page-title .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .about .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .about .wrapper .about-content {
+        flex-direction: column;
+    }
+    .experience .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .experience .wrapper .experience-content-photo {
+        position: static;
+    }
+    .experience .wrapper .experience-content {
+        width: 100%;
+    }
+    .about .wrapper .about-content .about-content-photo {
+        padding-top: 0px;
+    }
+    .about .wrapper .about-content .about-content-photo picture img {
+        width: 690px;
+    }
+    .about .wrapper .about-content h2 {
+        font-size: 32px;
+        line-height: 20px;
+        text-align: center;
+        padding-top: 0px;
+    }
+    .about .wrapper .about-content h2 span {
+        font-size: 24px;
+        line-height: 44px;
+    }
+    .about-content-content {
+        margin-top: -55px;
+    }
+    .experience .wrapper .experience-content h2 {
+        font-size: 27px;
+        line-height: 34px;
+        padding-top: 0px;
+        margin-bottom: 0px;
+    }
+    .experience .wrapper .experience-content p {
+        text-align: justify;
+    }
+    .about .wrapper .about-content .about-content-content p {
+        text-align: justify;
+    }
+    .experience-content-photo img {
+        width: 430px;
+        margin-top: -45px;
+        margin-bottom: -90px;
+    }
+    .departments .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .departments .wrapper .departments-heading {
+        margin-bottom: 0px;
+    }
+    .departments .wrapper .departments-content {
+        flex-direction: column;
+    }
+    .departments .wrapper .departments-content .department {
+        width: 100%;
+    }
+    .departments .wrapper .departments-heading p {
+        font-size: 13px;
+        text-align: justify;
+    }
+    .departments .wrapper .departments-heading h2 {
+        font-size: 32px;
+    }
+    .wr-specialists .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .wr-specialists .wrapper .wr-specialists-info .wr-specialists-specialist {
+        width: 100%;
+    }
+    .specialists-contacts {
+        padding: 0px 0px 10px 0px;
+        margin-left: 35%;
+    }
+}
+
+
+/*****ABOUT US*************750 - 828 ********************************/
+
+@media (min-width: 750px) and (max-width: 828px) {
+    .page-title .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .about .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .about .wrapper .about-content {
+        flex-direction: column;
+    }
+    .experience .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .experience .wrapper .experience-content-photo {
+        position: static;
+    }
+    .experience .wrapper .experience-content {
+        width: 100%;
+    }
+    .about .wrapper .about-content .about-content-photo {
+        padding-top: 0px;
+    }
+    .about .wrapper .about-content .about-content-photo picture img {
+        width: 690px;
+    }
+    .about .wrapper .about-content h2 {
+        font-size: 32px;
+        line-height: 20px;
+        text-align: center;
+        padding-top: 0px;
+    }
+    .about .wrapper .about-content h2 span {
+        font-size: 24px;
+        line-height: 44px;
+    }
+    .about-content-content {
+        margin-top: -55px;
+    }
+    .experience .wrapper .experience-content h2 {
+        font-size: 27px;
+        line-height: 34px;
+        padding-top: 0px;
+        margin-bottom: 0px;
+    }
+    .experience .wrapper .experience-content p {
+        text-align: justify;
+    }
+    .about .wrapper .about-content .about-content-content p {
+        text-align: justify;
+    }
+    .experience-content-photo img {
+        width: 430px;
+        margin-top: -45px;
+        margin-bottom: -90px;
+    }
+    .departments .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .departments .wrapper .departments-heading {
+        margin-bottom: 0px;
+    }
+    .departments .wrapper .departments-content {
+        flex-direction: column;
+    }
+    .departments .wrapper .departments-content .department {
+        width: 100%;
+    }
+    .departments .wrapper .departments-heading p {
+        font-size: 16px;
+        text-align: justify;
+    }
+    .departments .wrapper .departments-content .department p {
+        font-size: 14px;
+    }
+    .departments .wrapper .departments-heading h2 {
+        font-size: 32px;
+    }
+    .wr-specialists .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .wr-specialists .wrapper .wr-specialists-info .wr-specialists-specialist {
+        width: 100%;
+    }
+    .specialists-contacts {
+        padding: 0px 325px 10px 325px;
+    }
+}
+
+
+/*****ABOUT US*************828 - 990 ********************************/
+
+@media (min-width: 828px) and (max-width: 950px) {
+    .about .wrapper .about-content h2 span {
+        font-size: 19px;
+        line-height: 40px;
+    }
+}
+
+@media (min-width: 828px) and (max-width: 990px) {
+    .about .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .about .wrapper .about-content h2 {
+        padding-top: 0px;
+    }
+    .about .wrapper .about-content h2 span {
+        font-size: 30px;
+    }
+    .experience .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .experience .wrapper .experience-content-photo {
+        top: 40px;
+        left: 50%;
+    }
+    .experience .wrapper .experience-content-photo img {
+        width: 412px;
+    }
+    .departments .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .about .wrapper .about-content .about-content-content p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .experience .wrapper .experience-content h2 {
+        font-size: 30px;
+        line-height: 0px;
+        padding-top: 30px;
+        margin-bottom: 0px;
+    }
+    .wr-specialists .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+
+/*****ABOUT US************** 990 - 1225 *******************************/
+
+@media (min-width: 990px) and (max-width: 1225px) {
+    .about .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .about .wrapper .about-content h2 {
+        padding-top: 0px;
+    }
+    .experience .wrapper .experience-content-photo img {
+        width: 520px;
+    }
+    .about .wrapper .about-content h2 span {
+        font-size: 30px;
+        line-height: 60px;
+    }
+    .experience .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .departments .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+
+/******************************* DOCTORS *******************************/
+
+
+/***DOCTORS******************* 0 - 360 ********************************/
+
+@media (max-width: 360px) {
+    .our-doctors-photo picture img {
+        width: 300px;
+    }
+    .about .wrapper .our-doctors {
+        flex-direction: column;
+        margin-top: 5px;
+    }
+    .about .wrapper .our-doctors .our-doctors-photo {
+        text-align: center;
+    }
+    .about .wrapper .our-doctors .our-doctors-content {
+        padding-left: 0px;
+        padding-top: 0px;
+        padding-right: 0px;
+        text-align: justify;
+    }
+    .about .wrapper .our-doctors .our-doctors-content h2 {
+        text-align: center;
+        font-size: 25px;
+        line-height: 60px;
+    }
+    .scrolling {
+        right: 20px;
+        bottom: -50px;
+    }
+}
+
+
+/****DOCTORS******************* 360- 450 ********************************/
+
+@media (min-width: 360px) and (max-width: 450px) {
+    .our-doctors-photo picture img {
+        width: 340px;
+        margin-bottom: 10px;
+    }
+    .about .wrapper .our-doctors {
+        flex-direction: column;
+        margin-top: 5px;
+    }
+    .about .wrapper .our-doctors .our-doctors-photo {
+        text-align: center;
+    }
+    .about .wrapper .our-doctors .our-doctors-content {
+        padding-left: 0px;
+        padding-top: 0px;
+        padding-right: 0px;
+        text-align: justify;
+    }
+    .about .wrapper .our-doctors .our-doctors-content h2 {
+        text-align: center;
+        font-size: 25px;
+        line-height: 60px;
+    }
+    .scrolling {
+        right: 80px;
+        bottom: -50px;
+    }
+}
+
+
+/****DOCTORS******************* 450- 640 ********************************/
+
+@media (min-width: 450px) and (max-width: 640px) {
+    .our-doctors-photo picture img {
+        width: 430px;
+        margin-bottom: 10px;
+    }
+    .about .wrapper .our-doctors {
+        flex-direction: column;
+        margin-top: 5px;
+    }
+    .about .wrapper .our-doctors .our-doctors-photo {
+        text-align: center;
+    }
+    .about .wrapper .our-doctors .our-doctors-content {
+        padding-left: 0px;
+        padding-top: 0px;
+        padding-right: 0px;
+        text-align: justify;
+    }
+    .about .wrapper .our-doctors .our-doctors-content h2 {
+        text-align: center;
+        font-size: 25px;
+        line-height: 60px;
+    }
+    .scrolling {
+        right: 175px;
+        bottom: -50px;
+    }
+}
+
+
+/*****DOCTORS***************** 640- 750 ********************************/
+
+@media (min-width: 640px) and (max-width: 828px) {
+    .our-doctors-photo picture img {
+        width: 350px;
+        margin-bottom: 10px;
+    }
+    .about .wrapper .our-doctors {
+        margin-top: 5px;
+    }
+    .about .wrapper .our-doctors .our-doctors-photo {
+        text-align: center;
+    }
+    .about .wrapper .our-doctors .our-doctors-content {
+        padding-left: 10px;
+        padding-top: 0px;
+        padding-right: 0px;
+        text-align: justify;
+    }
+    .about .wrapper .our-doctors .our-doctors-content h2 {
+        text-align: center;
+        font-size: 25px;
+        line-height: 55px;
+        margin-top: 30px;
+    }
+    .about .wrapper .our-doctors .our-doctors-content p {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .scrolling {
+        right: 175px;
+        bottom: -50px;
+    }
+}
+
+
+/****DOCTORS***************** 828- 990 ********************************/
+
+@media (min-width: 828px) and (max-width: 990px) {
+    .wr-specialists .wrapper .wr-specialists-info {
+        justify-content: space-evenly;
+        margin-bottom: 0px;
+    }
+    .about .wrapper .our-doctors .our-doctors-content {
+        padding-left: 10px;
+        padding-top: 0px;
+        padding-right: 0px;
+        text-align: justify;
+        margin-top: -45px;
+    }
+    .about .wrapper .our-doctors .our-doctors-content h2 {
+        text-align: center;
+    }
+    .scrolling {
+        right: 90px;
+        bottom: -55px;
+    }
+}
+
+
+/******************************* BLOG *******************************/
+
+
+/*****BLOG******************* 0 - 360 ********************************/
+
+@media (max-width: 360px) {
+    .blog-main .wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+    .blog-main-photo picture img {
+        max-width: 300px;
+        margin-top: -25px;
+    }
+    .blog-main-content .blog-main-content-heading h3 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .about .blog-main .wrapper .blog-main-content {
+        padding-left: 0px;
+        padding-top: 0px;
+        text-align: justify;
+    }
+    .blog .wrapper {
+        flex-direction: column;
+    }
+    .blog .wrapper .wr-blog-content-chat {
+        max-width: 100%;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+    .chat-content {
+        text-align: justify;
+    }
+    .wr-blog-content-chat picture img {
+        max-width: 300px;
+    }
+    .blog-scrolling {
+        bottom: -40px;
+        right: 0px;
+    }
+}
+
+
+/****BLOG***************** 360- 450 ********************************/
+
+@media (min-width: 360px) and (max-width: 450px) {
+    .blog-main .wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+    .blog-main-photo picture img {
+        max-width: 340px;
+        margin-top: -25px;
+    }
+    .blog-main-content .blog-main-content-heading h3 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .about .blog-main .wrapper .blog-main-content {
+        padding-left: 0px;
+        padding-top: 0px;
+        text-align: justify;
+    }
+    .blog .wrapper {
+        flex-direction: column;
+    }
+    .blog .wrapper .wr-blog-content-chat {
+        max-width: 100%;
+        margin-bottom: 0px;
+    }
+    .chat-content {
+        text-align: justify;
+    }
+    .wr-blog-content-chat picture img {
+        max-width: 340px;
+    }
+    .blog-scrolling {
+        bottom: -40px;
+        right: 0px;
+    }
+}
+
+
+/****BLOG***************** 450- 640 ********************************/
+
+@media (min-width: 450px) and (max-width: 640px) {
+    .blog-main .wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+    .blog-main-photo picture img {
+        max-width: 430px;
+        margin-top: -25px;
+    }
+    .blog-main-content .blog-main-content-heading h3 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .about .blog-main .wrapper .blog-main-content {
+        padding-left: 0px;
+        padding-top: 0px;
+        text-align: justify;
+    }
+    .blog .wrapper {
+        flex-direction: column;
+    }
+    .blog .wrapper .wr-blog-content-chat {
+        max-width: 100%;
+        margin-bottom: 0px;
+    }
+    .chat-content {
+        text-align: justify;
+    }
+    .wr-blog-content-chat picture img {
+        max-width: 430px;
+    }
+    .blog-scrolling {
+        bottom: -40px;
+        right: 0px;
+    }
+}
+
+
+/****BLOG***************** 640- 828 ********************************/
+
+@media (min-width: 640px) and (max-width: 828px) {
+    .blog-main .wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+    .blog-main-photo picture img {
+        max-width: 620px;
+        margin-top: -25px;
+    }
+    .blog-main-content .blog-main-content-heading h3 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .about .blog-main .wrapper .blog-main-content {
+        padding-left: 0px;
+        padding-top: 0px;
+        text-align: justify;
+    }
+    .blog .wrapper {
+        flex-direction: column;
+    }
+    .blog .wrapper .wr-blog-content-chat {
+        max-width: 100%;
+        margin-bottom: 0px;
+    }
+    .chat-content {
+        text-align: justify;
+    }
+    .blog-scrolling {
+        bottom: -40px;
+        right: 0px;
+    }
+}
+
+
+/****BLOG***************** 828- 990 ********************************/
+
+@media (min-width: 828px) and (max-width: 1312px) {
+    .blog .wrapper {
+        justify-content: space-evenly;
+    }
+    .wr-blog-content-chat picture img {
+        max-width: 260px;
+    }
+    .blog .wrapper .wr-blog-content-chat .chat-content h3 {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .blog-main-content .chat-info,
+    .blog .wrapper .wr-blog-content-chat .chat-info {
+        font-size: 9px;
+    }
+    .blog-main-content .blog-main-content-heading h3 {
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .about .blog-main .wrapper .blog-main-content-definition p,
+    .blog .wrapper .wr-blog-content-chat .chat-content p {
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 0px;
+    }
+}
+
+
+/******************************* CONTACT *******************************/
+
+
+/*****CONTACT**************** 0 - 360 ********************************/
+
+@media (max-width: 360px) {
+    .about .contact-info {
+        padding-top: 35px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .contact-info .wrapper {
+        flex-direction: column;
+    }
+    .map {
+        text-align: center;
+    }
+    .map .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .map .wrapper a picture img {
+        max-width: 300px;
+    }
+    .contact-info .wrapper .contacts p {
+        margin-top: 0px;
+    }
+    .feedback .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .feedback .wrapper form {
+        padding-right: 0;
+        padding-top: 0px;
+        padding-left: 0;
+    }
+    .feedback .wrapper form .name {
+        flex-direction: column;
+    }
+    .feedback .wrapper form .name input[type=text],
+    .feedback .wrapper form .name input[type=email],
+    .feedback .wrapper form .subject input[type=text],
+    .feedback .wrapper form .subject textarea {
+        max-width: 300px;
+    }
+    .feedback .wrapper form p {
+        text-align: center;
+    }
+}
+
+
+/*****CONTACT**************** 360 - 450 ********************************/
+
+@media (min-width: 360px) and (max-width: 450px) {
+    .about .contact-info {
+        padding-top: 35px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .contact-info .wrapper {
+        flex-direction: column;
+    }
+    .map {
+        text-align: center;
+    }
+    .map .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .map .wrapper a picture img {
+        max-width: 340px;
+    }
+    .contact-info .wrapper .contacts p {
+        margin-top: 0px;
+    }
+    .feedback .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .feedback .wrapper form {
+        padding-right: 0;
+        padding-top: 0px;
+        padding-left: 0;
+    }
+    .feedback .wrapper form .name {
+        flex-direction: column;
+    }
+    .feedback .wrapper form .name input[type=text],
+    .feedback .wrapper form .name input[type=email],
+    .feedback .wrapper form .subject input[type=text],
+    .feedback .wrapper form .subject textarea {
+        max-width: 340px;
+    }
+    .feedback .wrapper form p {
+        text-align: center;
+    }
+}
+
+
+/*****CONTACT**************** 450 - 640 ********************************/
+
+@media (min-width: 450px) and (max-width: 640px) {
+    .map {
+        text-align: center;
+    }
+    .map .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .map .wrapper a picture img {
+        max-width: 430px;
+    }
+    .contact-info .wrapper .contacts p {
+        margin-top: 0px;
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .feedback .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .feedback .wrapper form {
+        padding-right: 0;
+        padding-top: 0px;
+        padding-left: 0;
+    }
+    .feedback .wrapper form .name {
+        flex-direction: column;
+    }
+    .feedback .wrapper form .name input[type=text],
+    .feedback .wrapper form .name input[type=email],
+    .feedback .wrapper form .subject input[type=text],
+    .feedback .wrapper form .subject textarea {
+        max-width: 71%;
+    }
+    .feedback .wrapper form p {
+        text-align: center;
+    }
+    .contact-info .wrapper .contacts h3 {
+        font-size: 20px;
+        line-height: 12px;
+    }
+}
+
+
+/*****CONTACT**************** 640 - 750 ********************************/
+
+@media (min-width: 640px) and (max-width: 750px) {
+    .map {
+        text-align: center;
+    }
+    .map .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .map .wrapper a picture img {
+        max-width: 620px;
+    }
+    .contact-info .wrapper .contacts p {
+        margin-top: 0px;
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .feedback .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .feedback .wrapper form {
+        padding-right: 0;
+        padding-top: 0px;
+        padding-left: 0;
+    }
+    .feedback .wrapper form .name {
+        flex-direction: column;
+    }
+    .feedback .wrapper form .name input[type=text],
+    .feedback .wrapper form .name input[type=email],
+    .feedback .wrapper form .subject input[type=text],
+    .feedback .wrapper form .subject textarea {
+        max-width: 76%;
+    }
+    .feedback .wrapper form p {
+        text-align: center;
+    }
+    .contact-info .wrapper .contacts h3 {
+        font-size: 20px;
+        line-height: 12px;
+    }
+}
+
+
+/*****CONTACT**************** 750 - 828 ********************************/
+
+@media (min-width: 750px) and (max-width: 828px) {
+    .map {
+        text-align: center;
+    }
+    .map .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .map .wrapper a picture img {
+        max-width: 730px;
+    }
+    .contact-info .wrapper .contacts p {
+        margin-top: 0px;
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .feedback .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .feedback .wrapper form {
+        padding-right: 0;
+        padding-top: 0px;
+        padding-left: 0;
+    }
+    .feedback .wrapper form .name {
+        flex-direction: column;
+    }
+    .feedback .wrapper form .name input[type=text],
+    .feedback .wrapper form .name input[type=email],
+    .feedback .wrapper form .subject input[type=text],
+    .feedback .wrapper form .subject textarea {
+        max-width: 78%;
+    }
+    .feedback .wrapper form p {
+        text-align: center;
+    }
+    .contact-info .wrapper .contacts h3 {
+        font-size: 20px;
+        line-height: 12px;
+    }
+}
+
+
+/*****CONTACT**************** 828 - 990 ********************************/
+
+@media (min-width: 828px) and (max-width: 990px) {
+    .map {
+        text-align: center;
+    }
+    .map .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .map .wrapper a picture img {
+        max-width: 810px;
+    }
+    .contact-info .wrapper .contacts p {
+        margin-top: 0px;
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .feedback .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .feedback .wrapper form {
+        padding-right: 7.5%;
+        padding-top: 0px;
+        padding-left: 7.5%;
+    }
+    .feedback .wrapper form .name input[type=text],
+    .feedback .wrapper form .name input[type=email],
+    .feedback .wrapper form .subject input[type=text],
+    .feedback .wrapper form .subject textarea {
+        max-width: 98%;
+    }
+    .feedback .wrapper form p {
+        text-align: center;
+    }
+    .contact-info .wrapper .contacts h3 {
+        font-size: 20px;
+        line-height: 12px;
+    }
+    .feedback .wrapper form .name input[type=text],
+    .feedback .wrapper form .name input[type=email] {
+        width: 335px;
+    }
+}
+
+
+/*****CONTACT**************** 990 - 1125 ********************************/
+
+@media (min-width: 990px) and (max-width: 1125px) {
+    .map {
+        text-align: center;
+    }
+    .map .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .map .wrapper a picture img {
+        max-width: 970px;
+    }
+    .feedback .wrapper form .name input[type=text] {
+        margin-right: 30px;
+    }
+    .feedback .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .feedback .wrapper form {
+        padding-left: 11.5%;
+    }
+}
+
+
+/*****CONTACT**************** 1125 - 1188 ********************************/
+
+@media (min-width: 1125px) and (max-width: 1188px) {
+    .map {
+        text-align: center;
+    }
+    .map .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .map .wrapper a picture img {
+        max-width: 970px;
+    }
+    .feedback .wrapper form .name input[type=text] {
+        margin-right: 30px;
+    }
+    .feedback .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+
+/*****CONTACT**************** 1188 - 1250 ********************************/
+
+@media (min-width: 1188px) and (max-width: 1260px) {
+    .map {
+        text-align: center;
+    }
+    .map .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .map .wrapper a picture img {
+        max-width: 970px;
+    }
+    .feedback .wrapper form .name input[type=text] {
+        margin-right: 30px;
+    }
+    .feedback .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .feedback .wrapper form {
+        padding-right: 16.5%;
+    }
+}
+
+
+/*****CONTACT**************** 1188 - 1360 ********************************/
+
+@media (min-width: 1188px) and (max-width: 1360px) {
+    .map {
+        text-align: center;
+    }
+    .map .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .map .wrapper a picture img {
+        max-width: 970px;
+    }
+    .feedback .wrapper form .name input[type=text] {
+        margin-right: 30px;
+    }
+    .feedback .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .feedback .wrapper form {
+        padding-right: 21.5%;
+    }
+}
+
+
+/*****CONTACT**************** 1350 - 1430 ********************************/
+
+@media (min-width: 1350px) and (max-width: 1430px) {
+    .map {
+        text-align: center;
+    }
+    .map .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .map .wrapper a picture img {
+        max-width: 970px;
+    }
+    .feedback .wrapper form .name input[type=text] {
+        margin-right: 30px;
+    }
+    .feedback .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .feedback .wrapper form {
+        padding-right: 24.5%;
     }
 }

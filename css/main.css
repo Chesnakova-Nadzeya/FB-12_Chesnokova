@@ -877,9 +877,6 @@ footer input[type=submit]:hover {
 }
 
 
-/************************PAGE 3: OUR DOCTORS ************************/
-
-
 /******************PAGE 3:OUR DOCTORS************************/
 
 .about .wrapper .our-doctors {
@@ -906,9 +903,6 @@ footer input[type=submit]:hover {
     color: #18191F;
     margin-top: -25px;
 }
-
-
-/******************PAGE 3:SPECIALISTS************************/
 
 .scrolling {
     display: flex;
