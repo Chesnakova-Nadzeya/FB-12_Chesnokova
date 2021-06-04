@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @import "../css/normalize.css";
 @import "../fonts/";
 @import "../css/settings.css";
@@ -7,8 +14,13 @@
 }
 
 .wr-clients-reviews .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     text-align: center;
     min-width: 0;
 }
@@ -40,13 +52,18 @@
 }
 
 .wr-clients-reviews .wrapper .swiper-container .swiper-slide:hover {
-    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
     top: -30px;
+    cursor: -webkit-grab;
     cursor: grab;
 }
 
 .swiper-container .swiper-wrapper {
     max-width: 1170px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
