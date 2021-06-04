@@ -36,6 +36,7 @@
     max-width: 23%;
     padding-left: 60px;
     padding-right: 60px;
+    padding-bottom: 10px;
 }
 
 .wr-clients-reviews .wrapper .swiper-container .swiper-slide:hover {
@@ -106,6 +107,12 @@
     border: 3px solid #2296F9;
 }
 
+.swiper-container-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    bottom: 12px;
+}
+
 
 /*******************МЕДИАЗАПРОСЫ********************/
 
@@ -125,13 +132,11 @@
     }
     .wr-clients-reviews .wrapper .swiper-container {
         padding-top: 15px;
+        max-width: 1068px;
     }
     .wr-clients-reviews .wrapper .wr-clients-reviews-heading p {
         font-size: 13px;
         line-height: 20px;
-    }
-    .swiper-container .swiper-wrapper {
-        max-width: 1068px;
     }
     .swiper-container-horizontal>.swiper-pagination-bullets,
     .swiper-pagination-custom,
@@ -169,12 +174,39 @@
     }
 }
 
-@media (min-width:450px) and (max-width: 640px) {
+@media (min-width:450px) and (max-width: 560px) {
+    .wr-clients-reviews .wrapper .swiper-container .swiper-slide {
+        max-width: 24%;
+    }
+}
+
+@media (min-width:560px) and (max-width: 640px) {
     .swiper-container-horizontal>.swiper-pagination-bullets,
     .swiper-pagination-custom,
     .swiper-pagination-fraction {
         bottom: 12;
-        left: -395px;
+        left: -307px;
+    }
+}
+
+@media (min-width:640px) and (max-width: 750px) {
+    .swiper-container-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        bottom: 12;
+        left: -307px;
+    }
+    .wr-clients-reviews .wrapper .swiper-container .swiper-slide {
+        max-width: 25%;
+    }
+}
+
+@media (min-width:750px) and (max-width: 828px) {
+    .swiper-container-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        bottom: 10px;
+        left: -350px;
     }
 }
 
@@ -183,5 +215,9 @@
     .swiper-pagination-custom,
     .swiper-pagination-fraction {
         left: -175px;
+    }
+    .wr-clients-reviews .wrapper .swiper-container .swiper-slide {
+        max-width: 25%;
+        padding-left: 80px;
     }
 }

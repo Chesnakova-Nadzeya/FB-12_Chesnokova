@@ -21,20 +21,14 @@ new Swiper('.swiper-container', {
 
     breakpoints: {
         849: {
-            slidesPerView: 1,
+            slidesPerView: 2,
         },
         1124: {
-            slidesPerView: 2,
+            slidesPerView: 3,
         },
     },
 
 });
-
-
-
-
-
-
 
 
 
