@@ -79,7 +79,7 @@
 }
 
 
-/******************************** 990 - 1025 ********************************/
+/***************************990 - 1025 ********************************/
 
 @media (min-width: 990px) and (max-width: 1025px) {
     header .wrapper {
@@ -1753,7 +1753,7 @@
     }
     .scrolling {
         right: 20px;
-        bottom: -50px;
+        bottom: 20px;
     }
 }
 
@@ -1785,7 +1785,7 @@
     }
     .scrolling {
         right: 80px;
-        bottom: -50px;
+        bottom: 20px;
     }
 }
 
@@ -1817,7 +1817,7 @@
     }
     .scrolling {
         right: 175px;
-        bottom: -50px;
+        bottom: 20px;
     }
 }
 
@@ -1853,7 +1853,7 @@
     }
     .scrolling {
         right: 175px;
-        bottom: -50px;
+        bottom: 20px;
     }
 }
 
@@ -1877,7 +1877,7 @@
     }
     .scrolling {
         right: 90px;
-        bottom: -55px;
+        bottom: 15px;
     }
 }
 
@@ -2480,5 +2480,20 @@
     }
     .feedback .wrapper form {
         padding-right: 24.5%;
+    }
+}
+
+
+/**********************************BURGER******************************/
+
+@media (max-width: 650px) {
+    header .wrapper nav {
+        display: none;
+    }
+    .header-icons {
+        display: none;
+    }
+    .burger-menu {
+        display: block;
     }
 }
