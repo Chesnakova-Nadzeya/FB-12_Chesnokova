@@ -17,14 +17,12 @@ new Swiper('.swiper-container', {
     },
 
 
-    // effect: 'coverflow',
-
     breakpoints: {
-        849: {
-            slidesPerView: 2,
+        848: {
+            slidesPerView: 1,
         },
-        1124: {
-            slidesPerView: 3,
+        1125: {
+            slidesPerView: 2,
         },
     },
 
