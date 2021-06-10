@@ -618,6 +618,9 @@ nav ul li a.page {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+}
+
+.wr-blog .wrapper .wr-blog-heading {
     text-align: center;
 }
 
@@ -699,13 +702,6 @@ nav ul li a.page {
     padding-right: 22px;
 }
 
-.wr-blog-content .wr-blog-content-chat .chat-info .chat:hover,
-.wr-blog-content .wr-blog-content-chat .chat-info .likes:hover {
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-}
-
 .wr-blog-content .wr-blog-content-chat .chat-info .likes {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -713,6 +709,11 @@ nav ul li a.page {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
+}
+
+.wr-blog-content .wr-blog-content-chat .chat-info .likes a img,
+.wr-blog-content .wr-blog-content-chat .chat-info .chat a img {
+    vertical-align: middle;
 }
 
 .wr-blog .wrapper .wr-blog-content .chat-content h3 {
@@ -1358,9 +1359,9 @@ footer input[type=submit]:hover {
     -ms-flex-direction: column;
     flex-direction: column;
     text-align: center;
-    padding-right: 12.5%;
+    padding-right: 16.5%;
     padding-top: 24px;
-    padding-left: 15.5%;
+    padding-left: 16.5%;
 }
 
 .feedback .wrapper form p {
@@ -1386,7 +1387,7 @@ footer input[type=submit]:hover {
     height: 45px;
     background: #F6F6F6;
     border-radius: 5px;
-    border: none;
+    border: solid 1px #F6F6F6;
 }
 
 .feedback .wrapper form .name input[type=text]:hover,
@@ -1403,7 +1404,7 @@ footer input[type=submit]:hover {
     height: 45px;
     background: #F6F6F6;
     border-radius: 5px;
-    border: none;
+    border: solid 1px #F6F6F6;
     margin-bottom: 18px;
 }
 
@@ -1416,7 +1417,7 @@ footer input[type=submit]:hover {
     height: 145px;
     background: #F6F6F6;
     border-radius: 5px;
-    border: none;
+    border: solid 1px #F6F6F6;
     margin-bottom: 25px;
 }
 

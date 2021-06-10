@@ -16,13 +16,24 @@ new Swiper('.swiper-container', {
         clickable: true,
     },
 
-
     breakpoints: {
-        848: {
+        "0.25": {
             slidesPerView: 1,
+            spacebetween: 60,
         },
-        1125: {
+
+        "0.5": {
             slidesPerView: 2,
+            spacebetween: 60,
+        },
+
+        "@0.75": {
+            slidesPerView: 3,
+            spacebetween: 60,
+        },
+        "@1.00": {
+            slidesPerView: 3,
+            spacebetween: 60,
         },
     },
 
