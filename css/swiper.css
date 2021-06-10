@@ -193,6 +193,12 @@
     .wr-clients-reviews .wrapper .swiper-container .swiper-slide {
         max-width: 24%;
     }
+    .swiper-container-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        left: -365px;
+        bottom: 12;
+    }
 }
 
 @media (min-width:560px) and (max-width: 640px) {
